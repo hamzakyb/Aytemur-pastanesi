@@ -170,7 +170,7 @@ export default function ProductDetail({ params }: { params: Promise<{ id: string
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img 
             src={product.img} 
-            alt={t(product.titleKey, product.defaultTitle)} 
+            alt={t(product.titleKey, product.defaultTitle) as string} 
             className="w-full h-full object-cover grayscale-[10%]"
           />
           <div className="absolute inset-0 bg-black/20"></div>
@@ -180,16 +180,16 @@ export default function ProductDetail({ params }: { params: Promise<{ id: string
         <section className="max-w-3xl mx-auto px-6 md:px-12 py-24 text-center">
           <span className="font-sans text-[10px] tracking-[0.2em] text-gray-400 uppercase mb-4 block">Aytemur Pastanesi</span>
           <h1 className="font-display text-4xl md:text-5xl lg:text-6xl text-black italic mb-12">
-            {t(product.titleKey, product.defaultTitle)}
+            {t(product.titleKey, product.defaultTitle) as string}
           </h1>
           <div className="w-12 h-px bg-black mx-auto mb-16"></div>
           
           <div className="prose prose-lg mx-auto text-left font-sans text-[15px] md:text-[16px] text-gray-500 font-light leading-relaxed mb-16">
             <p className="mb-6 font-medium text-gray-900 text-center">
-              {t(product.descKey, product.defaultDesc)}
+              {t(product.descKey, product.defaultDesc) as string}
             </p>
             <p className="text-justify md:text-center">
-              {t(product.contentKey, product.defaultContent)}
+              {t(product.contentKey, product.defaultContent) as string}
             </p>
           </div>
 
