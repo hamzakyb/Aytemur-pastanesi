@@ -17,7 +17,10 @@ export default function Contact() {
       {/* Header */}
       <header className="fixed top-0 left-0 w-full z-[100] bg-white/70 backdrop-blur-xl border-b border-gray-100 transition-all duration-500">
         <div className="max-w-7xl mx-auto px-6 md:px-12 h-24 flex items-center justify-between">
-          <div className="flex-1 flex justify-start">
+          <div className="flex-1 flex justify-start items-center">
+            <div className="md:hidden">
+              <LanguageSwitcher />
+            </div>
             <nav className="hidden md:flex gap-8 items-center">
               <Link
                 className="font-sans text-[11px] font-medium tracking-widest text-gray-500 hover:text-black transition-colors uppercase"
@@ -49,8 +52,8 @@ export default function Contact() {
               />
             </Link>
           </div>
-          <div className="flex-1 flex justify-end">
-            <nav className="hidden md:flex gap-8 items-center">
+          <div className="flex-1 flex justify-end items-center">
+            <nav className="hidden md:flex gap-8 items-center mr-8">
               <Link
                 className="font-sans text-[11px] font-medium tracking-widest text-gray-500 hover:text-black transition-colors uppercase"
                 href="/menu"
@@ -64,12 +67,12 @@ export default function Contact() {
                 {t("nav.contact", "İletişim")}
               </Link>
             </nav>
-            <div className="flex items-center gap-4 ml-8">
+            <div className="hidden md:block">
               <LanguageSwitcher />
-              <button className="md:hidden text-black" onClick={() => setMenuOpen(!menuOpen)}>
-                <MenuIcon className="w-6 h-6" />
-              </button>
             </div>
+            <button className="md:hidden text-black" onClick={() => setMenuOpen(!menuOpen)}>
+              <MenuIcon className="w-6 h-6" />
+            </button>
           </div>
         </div>
       </header>

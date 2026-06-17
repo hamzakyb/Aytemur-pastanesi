@@ -131,7 +131,10 @@ export default function Home() {
           : "bg-transparent border-transparent md:bg-white/70 md:backdrop-blur-xl md:border-gray-100"
       }`}>
         <div className="max-w-7xl mx-auto px-6 md:px-12 h-24 flex items-center justify-between">
-          <div className="flex-1 flex justify-start">
+          <div className="flex-1 flex justify-start items-center">
+            <div className="md:hidden">
+              <LanguageSwitcher />
+            </div>
             <nav className="hidden md:flex gap-8 items-center">
               <Link
                 className="font-sans text-[11px] font-medium tracking-widest text-gray-500 hover:text-black transition-colors uppercase"
@@ -178,7 +181,9 @@ export default function Home() {
                 {t("nav.contact")}
               </Link>
             </nav>
-            <LanguageSwitcher />
+            <div className="hidden md:block">
+              <LanguageSwitcher />
+            </div>
             <button className="md:hidden text-black" onClick={() => setMenuOpen(!menuOpen)}>
               <MenuIcon className="w-6 h-6" />
             </button>
@@ -401,11 +406,11 @@ export default function Home() {
                   {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img
                     alt="Instagram Post"
-                    className="w-full h-full object-cover grayscale-[20%] group-hover:grayscale-0 group-hover:scale-105 transition-all duration-700"
+                    className="w-full h-full object-cover grayscale-0 md:grayscale-[20%] md:group-hover:grayscale-0 md:group-hover:scale-105 transition-all duration-700"
                     src={post}
                   />
-                  <div className="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-center justify-center">
-                    <Heart className="text-white w-8 h-8 fill-white" />
+                  <div className="absolute inset-0 bg-black/15 md:bg-black/20 opacity-100 md:opacity-0 md:group-hover:opacity-100 transition-opacity duration-500 flex items-center justify-center">
+                    <Heart className="text-white w-6 h-6 md:w-8 md:h-8 fill-white" />
                   </div>
                 </ScrollReveal>
               ))}
