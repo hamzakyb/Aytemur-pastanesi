@@ -159,9 +159,9 @@ export default function Menu() {
   });
 
   return (
-    <div className="min-h-screen bg-[#FDF5E6]/40 text-black flex flex-col font-sans">
+    <div className="min-h-screen bg-white text-black flex flex-col font-sans">
       {/* Top Navigation */}
-      <header className="sticky top-0 z-50 bg-[#FDF5E6]/80 backdrop-blur-xl border-b border-[#1a1c1c]/5">
+      <header className="sticky top-0 z-50 bg-white/90 backdrop-blur-xl border-b border-[#1a1c1c]/5">
         <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
           <div className="flex items-center gap-4">
             <Link href="/" className="w-10 h-10 rounded-full bg-black/5 flex items-center justify-center hover:bg-black/10 transition-colors">
@@ -188,8 +188,11 @@ export default function Menu() {
 
       {/* Hero Header */}
       <div className="bg-white border-b border-gray-100 py-10 px-6 text-center">
-        <span className="font-sans text-[10px] tracking-[0.2em] text-gray-400 uppercase">Aytemur Pastanesi</span>
-        <h2 className="font-display text-4xl mt-2 mb-4 italic">{t("nav.digitalMenu", "Günlük Menümüz")}</h2>
+        <div className="flex justify-center mb-3">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img src="/logo.png" alt="Aytemur Pastanesi" className="h-14 w-auto object-contain" />
+        </div>
+        <h2 className="font-display text-4xl mt-2 mb-4 italic" style={{ color: '#735c00' }}>{t("nav.digitalMenu", "Günlük Menümüz")}</h2>
         <div className="w-12 h-[1px] bg-black mx-auto mb-6"></div>
         
         {/* Search Input */}
@@ -214,14 +217,14 @@ export default function Menu() {
       </div>
 
       {/* Category Tabs */}
-      <div className="sticky top-[73px] z-40 bg-[#FDF5E6]/90 backdrop-blur-md border-b border-gray-100/60 overflow-x-auto hide-scrollbar py-3 px-4 flex gap-3 md:justify-center">
+      <div className="sticky top-[73px] z-40 bg-white/95 backdrop-blur-md border-b border-gray-100/60 overflow-x-auto hide-scrollbar py-3 px-4 flex gap-3 md:justify-center">
         {categories.map((cat) => (
           <button
             key={cat.key}
             onClick={() => setActiveCategory(cat.key)}
             className={`flex-shrink-0 px-5 py-2 text-[11px] font-semibold tracking-wider uppercase transition-all duration-300 ${
               activeCategory === cat.key
-                ? "bg-black text-[#FDF5E6]"
+                ? "bg-black text-white"
                 : "bg-white text-gray-600 border border-gray-200/50 hover:bg-gray-50"
             }`}
           >
@@ -277,7 +280,7 @@ export default function Menu() {
                   <div className="flex flex-wrap items-center justify-between gap-2 border-t border-gray-50 pt-3 mt-auto">
                     <span className="font-sans text-lg font-bold text-black">{item.price} ₺</span>
                     {item.isPopular && (
-                      <span className="flex items-center gap-1 text-[10px] uppercase tracking-widest font-semibold text-[#735c00] bg-[#FDF5E6] px-2 py-1">
+                      <span className="flex items-center gap-1 text-[10px] uppercase tracking-widest font-semibold text-[#735c00] bg-amber-50 px-2 py-1">
                         <Sparkles className="w-3 h-3" />
                         {t("menuPage.popular", "Popüler")}
                       </span>
@@ -370,7 +373,7 @@ export default function Menu() {
             </div>
 
             {/* Product Details */}
-            <div className="p-5 md:p-8 flex-1 flex flex-col justify-between bg-[#FDF5E6]/40">
+            <div className="p-5 md:p-8 flex-1 flex flex-col justify-between bg-white">
               <div>
                 <span className="font-sans text-[10px] uppercase tracking-widest text-[#735c00] font-semibold">
                   {selectedItem.category}
