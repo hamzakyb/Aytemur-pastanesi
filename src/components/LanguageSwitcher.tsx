@@ -4,7 +4,16 @@ import { useTranslation } from "react-i18next";
 import { useState, useRef, useEffect } from "react";
 import { Globe } from "lucide-react";
 
-export default function LanguageSwitcher() {
+interface LanguageSwitcherProps {
+  /** Force the dropdown to open in a specific direction.
+   *  "left"  → always opens left-aligned
+   *  "right" → always opens right-aligned
+   *  default → responsive (left on mobile, right on desktop)
+   */
+  dropdownAlign?: "left" | "right";
+}
+
+export default function LanguageSwitcher({ dropdownAlign }: LanguageSwitcherProps = {}) {
   const { i18n } = useTranslation();
   const [open, setOpen] = useState(false);
   const dropdownRef = useRef<HTMLDivElement>(null);
@@ -57,7 +66,13 @@ export default function LanguageSwitcher() {
       </button>
 
       {open && (
-        <div className="absolute left-0 md:left-auto md:right-0 mt-2 w-40 origin-top-left md:origin-top-right bg-white/95 backdrop-blur-xl border border-gray-100 shadow-xl focus:outline-none overflow-hidden max-h-[300px] overflow-y-auto hide-scrollbar">
+        <div className={`absolute mt-2 w-40 bg-white/95 backdrop-blur-xl border border-gray-100 shadow-xl focus:outline-none overflow-hidden max-h-[300px] overflow-y-auto hide-scrollbar ${
+          dropdownAlign === "left"
+            ? "left-0 origin-top-left"
+            : dropdownAlign === "right"
+            ? "right-0 origin-top-right"
+            : "left-0 md:left-auto md:right-0 origin-top-left md:origin-top-right"
+        }`}>
           <div className="py-1">
             {languages.map((lang) => (
               <button

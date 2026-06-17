@@ -181,7 +181,7 @@ export default function Menu() {
                 {t("nav.qrCode", "QR Kod")}
               </span>
             </button>
-            <LanguageSwitcher />
+            <LanguageSwitcher dropdownAlign="left" />
           </div>
         </div>
       </header>
