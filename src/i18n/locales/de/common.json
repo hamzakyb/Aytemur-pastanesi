@@ -1,0 +1,142 @@
+{
+  "nav": {
+    "about": "Über uns",
+    "products": "Unsere Produkte",
+    "menu": "Menü",
+    "contact": "Kontakt",
+    "home": "Zuhause",
+    "digitalMenu": "Digitales Menü",
+    "qrCode": "QR-Code"
+  },
+  "hero": {
+    "titleTop": "Seit 1978",
+    "titleBottom": "Handwerkliche Aromen.",
+    "desc": "Im Herzen von Avanos, einer stillen Hingabe, die sich über fast ein halbes Jahrhundert erstreckt. Ein handwerkliches Erbe, geknüpft mit der Meister-Lehrlings-Tradition, das den einzigartigen Geist Kappadokiens in sich trägt. Jedes unserer Rezepte spiegelt traditionelle, über Generationen weitergegebene Rezepte und einen Boutique-Konditoransatz wider."
+  },
+  "homeMenu": {
+    "title": "Tägliches Bäckereimenü",
+    "desc": "Entdecken Sie hausgemachtes Brot, warme Croissants und unsere Auswahl an Boutique-Desserts, die täglich frisch aus unserer Avanos-Bäckerei zubereitet werden.",
+    "btn": "Menü anzeigen"
+  },
+  "homeProducts": {
+    "title": "Unsere Produkte",
+    "swipe": "Wischen Sie zum Erkunden",
+    "btn": "Alle Produkte anzeigen"
+  },
+  "testimonials": {
+    "title": "von unseren Stammgästen"
+  },
+  "instagram": {
+    "title": "Aromen aus unserer Linse",
+    "desc": "@aytemurpastanesi – Verfolgen Sie unsere Momente und Kunsthandwerksgeschichten auf Instagram.",
+    "btn": "Folgen Sie uns"
+  },
+  "footer": {
+    "locationTitle": "Standort & Kontakt",
+    "address": "Inonu Street, Nr. 16",
+    "city": "Avanos / Kappadokien",
+    "hoursTitle": "Arbeitszeiten",
+    "weekdays": "Wochentags",
+    "saturday": "Samstag",
+    "sunday": "Sonntag",
+    "copy": "© 1978 Aytemur Patisserie. Geschmackserbe von Avanos."
+  },
+  "menuPage": {
+    "searchPlaceholder": "Suchmenü...",
+    "notFound": "Es wurden keine Produkte gefunden, die Ihren Kriterien entsprechen.",
+    "popular": "Beliebt",
+    "allergen": "Allergen",
+    "taxInfo": "Die Preise verstehen sich inklusive Mehrwertsteuer. Wenn Sie Allergien haben, informieren Sie bitte unser Personal vor der Bestellung.",
+    "copy": "© 1978 Aytemur Patisserie. Alle Rechte vorbehalten.",
+    "qrTitle": "Menü-QR-Code",
+    "fresh": "Jeden Morgen frisch zubereitet in unserer Avanos-Bäckerei.",
+    "allergenWarningTitle": "Allergenwarnung",
+    "allergenWarningDesc": "Dieses Produkt enthält:",
+    "naturalTitle": "Natürlich und ohne Zusatzstoffe",
+    "naturalDesc": "Dieses Produkt enthält keine künstlichen Konservierungsstoffe oder chemischen Zusätze.",
+    "categories": {
+      "all": "Alle",
+      "bakery": "Bäckerei",
+      "pastry": "Gebäck",
+      "desserts": "Desserts",
+      "drinks": "Getränke"
+    }
+  },
+  "aboutPage": {
+    "subtitle": "Unser Erbe",
+    "title": "Eine Geschmacksgeschichte aus einem halben Jahrhundert",
+    "p1": "Wir begannen 1978 als kleine Bäckerei in Avanos, dem Herzen Kappadokiens. Das Einzige, was sich seitdem nicht geändert hat, ist unsere Leidenschaft für handwerkliches Backen und unsere kompromisslose Einstellung zu Qualität.",
+    "p2": "Für uns ist die Konditorei nicht nur ein Beruf, sondern ein Handwerk, das von Generation zu Generation weitergegeben wird. In unseren Öfen, die jeden Morgen vor Sonnenaufgang brennen, werden unsere Sauerteigbrote, knusprigen Croissants und nostalgischen, nach Mahaleb duftenden Brötchen zubereitet.",
+    "p3": "Die besten Zutaten zu finden, lokale Produzenten zu unterstützen und frische saisonale Produkte zu verwenden sind unsere wichtigsten Grundsätze. Durch die Mischung französischer Butter, belgischer Schokolade und Früchte aus den fruchtbaren Böden von Avanos vereinen wir moderne Backtechniken und traditionelle Aromen.",
+    "p4": "Wir laden Sie ein, Teil dieser stillen Hingabe und Geschmacksreise zu sein."
+  },
+  "contactPage": {
+    "subtitle": "Kontakt",
+    "title": "Nehmen Sie Kontakt auf",
+    "addressTitle": "Unsere Adresse",
+    "addressFull": "Inonu Street, Nr. 16\nAvanos / Nevsehir, Kappadokien",
+    "phoneTitle": "Telefon",
+    "emailTitle": "E-Mail",
+    "formTitle": "Schreiben Sie uns",
+    "nameLabel": "Vollständiger Name",
+    "emailLabel": "E-Mail-Adresse",
+    "msgLabel": "Ihre Nachricht",
+    "namePlaceholder": "z.B. John Doe",
+    "emailPlaceholder": "hello@example.com",
+    "msgPlaceholder": "Wie können wir Ihnen helfen?",
+    "submitBtn": "Senden"
+  },
+  "menuItems": [
+    null,
+    {
+      "name": "Sauerteig-Avanos-Brot",
+      "desc": "Traditionelles Sauerteigbrot, 48 Stunden lang mit natürlicher Hefe fermentiert und im Steinofen gebacken."
+    },
+    {
+      "name": "Einfaches französisches Croissant",
+      "desc": "Handwerklich hergestelltes Croissant mit 100 % französischer Butter, außen knusprig und innen weich geschichtet."
+    },
+    {
+      "name": "Mandel-Frangipane-Croissant",
+      "desc": "Gourmet-Croissant gebacken mit Mandelcremefüllung und Mandelblättchenmantel."
+    },
+    {
+      "name": "Mahaleb duftendes Osterbrötchen",
+      "desc": "Originalrezept seit 1978 unverändert. Geflochtenes Brötchen mit Mastix und Mahaleb-Duft."
+    },
+    {
+      "name": "Belgisches Schokoladen-Eclair",
+      "desc": "Gefüllt mit spezieller Gebäckcreme, garniert mit hochwertiger belgischer Schokoladen-Ganache."
+    },
+    {
+      "name": "Knuspriges Mille-Feuille mit Erdbeeren",
+      "desc": "Vanillecreme und frische Avanos-Erdbeeren zwischen täglich zubereiteten knusprigen Blätterteigschichten."
+    },
+    {
+      "name": "Handwerklicher San-Sebastian-Käsekuchen",
+      "desc": "Moderner spanischer klassischer Käsekuchen mit fließender Mitte und leicht verbrannter Oberfläche."
+    },
+    {
+      "name": "Avanos Simit",
+      "desc": "Knuspriger Bagel, in heißem Wasser mit Melasse eingeweicht, mit reichlich Sesam bedeckt und im Steinofen gebacken."
+    },
+    {
+      "name": "Flaches Weiß",
+      "desc": "Samtiger Kaffee, zubereitet mit Double-Shot-Espresso und mikrogeschäumter Frischmilch."
+    },
+    {
+      "name": "Hausgemachte handwerklich hergestellte Limonade",
+      "desc": "Erfrischungsgetränk aus kaltgepressten Bodrum-Zitronen und frischen Minzblättern."
+    }
+  ],
+  "products": {
+    "p1Title": "Individuelle Kuchen",
+    "p1Desc": "Wo Handwerkskunst auf Luxus trifft. Boutique-Kuchen für Ihre besonderen Tage.",
+    "p2Title": "Traditionelles Gebäck",
+    "p2Desc": "Unser berühmtes, nach Mahaleb duftendes Osterbrötchen und klassische Rezepte, zubereitet nach traditioneller Steinofentradition.",
+    "p3Title": "Milchdesserts",
+    "p3Desc": "Unsere leichten und köstlichen Milchdesserts werden nach traditionellen Methoden zubereitet.",
+    "p4Title": "Boutique-Geschenke",
+    "p4Desc": "Sorgfältig verpackte Premium-Geschmacksrichtungen, die Ihren Liebsten besondere Momente bescheren."
+  }
+}

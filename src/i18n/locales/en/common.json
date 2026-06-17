@@ -1,0 +1,141 @@
+{
+  "nav": {
+    "about": "About Us",
+    "products": "Our Products",
+    "menu": "Menu",
+    "contact": "Contact",
+    "home": "Home",
+    "digitalMenu": "Digital Menu",
+    "qrCode": "QR Code"
+  },
+  "hero": {
+    "titleTop": "Since 1978",
+    "titleBottom": "Flavors Kneaded with Passion.",
+    "desc": "The secret to true flavor lies in the attention to detail. We start every day with the same excitement in Avanos for half a century; with our finely crafted products, we offer you not just a taste, but a special experience."
+  },
+  "homeMenu": {
+    "title": "Daily Bakery Menu",
+    "desc": "Discover artisan breads, hot croissants, and our selection of boutique desserts prepared daily, fresh from our Avanos bakery every morning.",
+    "btn": "View Menu"
+  },
+  "homeProducts": {
+    "title": "Our Products",
+    "swipe": "Swipe to Explore",
+    "btn": "See All Products"
+  },
+  "testimonials": {
+    "title": "from our regulars"
+  },
+  "instagram": {
+    "title": "flavors from our lens",
+    "desc": "@aytemurpastanesi — follow our moments and artisan stories on instagram.",
+    "btn": "Follow Us"
+  },
+  "footer": {
+    "locationTitle": "Location & Contact",
+    "address": "Inonu Street, No: 16",
+    "city": "Avanos / Cappadocia",
+    "hoursTitle": "Working Hours",
+    "weekdays": "Weekdays",
+    "saturday": "Saturday",
+    "sunday": "Sunday",
+    "copy": "© 1978 Aytemur Patisserie. Flavor Heritage from Avanos."
+  },
+  "menuPage": {
+    "searchPlaceholder": "Search menu...",
+    "notFound": "No products found matching your criteria.",
+    "popular": "Popular",
+    "allergen": "Allergen",
+    "taxInfo": "Prices include VAT. If you have allergies, please inform our staff before ordering.",
+    "copy": "© 1978 Aytemur Patisserie. All rights reserved.",
+    "qrTitle": "Menu QR Code",
+    "fresh": "Prepared fresh every morning in our Avanos bakery.",
+    "allergenWarningTitle": "Allergen Warning",
+    "allergenWarningDesc": "This product contains:",
+    "naturalTitle": "Natural & Additive-Free",
+    "naturalDesc": "This product does not contain any artificial preservatives or chemical additives.",
+    "categories": {
+      "all": "All",
+      "bakery": "Bakery",
+      "pastry": "Pastry",
+      "desserts": "Desserts",
+      "drinks": "Drinks"
+    }
+  },
+  "aboutPage": {
+    "subtitle": "Our Corporate History",
+    "title": "Half a Century of Flavor Vision",
+    "p1": "As Aytemur Patisserie, established in Avanos in 1978, we carry our deep-rooted flavor heritage to the present with modern production standards.",
+    "p2": "We center the value of traditional craftsmanship in our production processes; carefully preparing each of our products with selected, high-standard ingredients. We blend years of experience with an innovative vision.",
+    "p3": "While bringing together our local recipes and distinguished examples of world pastry under the same roof, ensuring continuity in product quality and keeping guest satisfaction at the highest level is our main priority.",
+    "p4": "We are pleased to share this flavor experience, which is a reflection of our corporate culture approaching half a century, with you."
+  },
+  "contactPage": {
+    "subtitle": "Contact",
+    "title": "Get in Touch",
+    "addressTitle": "Our Address",
+    "addressFull": "Inonu Street, No: 16\nAvanos / Nevsehir, Cappadocia",
+    "phoneTitle": "Phone",
+    "emailTitle": "Email",
+    "formTitle": "Write to Us",
+    "nameLabel": "Full Name",
+    "emailLabel": "Email Address",
+    "msgLabel": "Your Message",
+    "namePlaceholder": "e.g. John Doe",
+    "emailPlaceholder": "hello@example.com",
+    "msgPlaceholder": "How can we help you?",
+    "submitBtn": "Send"
+  },
+  "menuItems": {
+    "1": {
+      "name": "Sourdough Avanos Bread",
+      "desc": "Traditional sourdough bread fermented for 48 hours with natural yeast, baked in a stone oven."
+    },
+    "2": {
+      "name": "Plain French Croissant",
+      "desc": "Artisan croissant with 100% French butter, crispy outside and soft layered inside."
+    },
+    "3": {
+      "name": "Almond & Frangipane Croissant",
+      "desc": "Gourmet croissant baked with almond cream filling and sliced almond coating."
+    },
+    "4": {
+      "name": "Mahaleb Scented Easter Bun",
+      "desc": "Original recipe unchanged since 1978. Braided bun with mastic gum and mahaleb scent."
+    },
+    "5": {
+      "name": "Belgian Chocolate Eclair",
+      "desc": "Filled with special pastry cream, topped with premium Belgian chocolate ganache."
+    },
+    "6": {
+      "name": "Strawberry Crispy Mille-Feuille",
+      "desc": "Vanilla cream and fresh Avanos strawberries between daily prepared crispy puff pastry layers."
+    },
+    "7": {
+      "name": "Artisan San Sebastian Cheesecake",
+      "desc": "Modern Spanish classic cheesecake with a flowing center and slightly burnt top surface."
+    },
+    "8": {
+      "name": "Avanos Simit",
+      "desc": "Crispy bagel soaked in hot water with molasses, covered in plenty of sesame and baked in a stone oven."
+    },
+    "9": {
+      "name": "Flat White",
+      "desc": "Velvety coffee prepared with double shot espresso and micro-foamed fresh milk."
+    },
+    "10": {
+      "name": "Homemade Artisan Lemonade",
+      "desc": "Refreshing drink made from cold-pressed Bodrum lemons and fresh mint leaves."
+    }
+  },
+  "products": {
+    "p1Title": "Custom Cakes",
+    "p1Desc": "For all your special events and celebrations, custom-designed cakes brought to life by our master chefs with every detail meticulously crafted.",
+    "p2Title": "Traditional Pastries",
+    "p2Desc": "Our famous mahaleb scented Easter bun and classic recipes prepared with stone oven tradition.",
+    "p3Title": "Milk Desserts",
+    "p3Desc": "Our light and delicious milk desserts prepared with traditional methods.",
+    "p4Title": "Boutique Gifts",
+    "p4Desc": "Carefully packaged premium flavors that will give your loved ones special moments."
+  }
+}

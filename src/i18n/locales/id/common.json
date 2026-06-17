@@ -1,0 +1,142 @@
+{
+  "nav": {
+    "about": "Tentang Kami",
+    "products": "Produk Kami",
+    "menu": "Tidak bisa",
+    "contact": "Kontak",
+    "home": "Rumah",
+    "digitalMenu": "Menu Digital",
+    "qrCode": "Kode QR"
+  },
+  "hero": {
+    "titleTop": "Sejak tahun 1978",
+    "titleBottom": "Rasa Pengrajin.",
+    "desc": "Di jantung Avanos, sebuah dedikasi diam-diam yang berlangsung hampir setengah abad. Warisan seni yang dipadukan dengan tradisi master-magang, membawa semangat unik Cappadocia. Setiap resep kami merupakan cerminan resep tradisional yang diturunkan dari generasi ke generasi dan pendekatan pastry butik."
+  },
+  "homeMenu": {
+    "title": "Menu Roti Harian",
+    "desc": "Temukan roti artisan, croissant panas, dan pilihan makanan penutup butik kami yang disiapkan setiap hari, segar dari toko roti Avanos kami setiap pagi.",
+    "btn": "Lihat Menu"
+  },
+  "homeProducts": {
+    "title": "Produk Kami",
+    "swipe": "Geser untuk Menjelajah",
+    "btn": "Lihat Semua Produk"
+  },
+  "testimonials": {
+    "title": "dari pelanggan tetap kami"
+  },
+  "instagram": {
+    "title": "rasa dari lensa kami",
+    "desc": "@aytemurpastanesi — ikuti momen dan kisah pengrajin kami di instagram.",
+    "btn": "Ikuti Kami"
+  },
+  "footer": {
+    "locationTitle": "Lokasi & Kontak",
+    "address": "Jalan Inonu, No: 16",
+    "city": "Avanos / Kapadokia",
+    "hoursTitle": "Jam Kerja",
+    "weekdays": "hari kerja",
+    "saturday": "Sabtu",
+    "sunday": "Minggu",
+    "copy": "© 1978 Toko Kue Aytemur. Warisan Rasa dari Avanos."
+  },
+  "menuPage": {
+    "searchPlaceholder": "Menu pencarian...",
+    "notFound": "Tidak ditemukan produk yang cocok dengan kriteria Anda.",
+    "popular": "Populer",
+    "allergen": "alergen",
+    "taxInfo": "Harga sudah termasuk PPN. Jika Anda memiliki alergi, harap informasikan kepada staf kami sebelum memesan.",
+    "copy": "© 1978 Toko Kue Aytemur. Semua hak dilindungi undang-undang.",
+    "qrTitle": "Menu Kode QR",
+    "fresh": "Disiapkan segar setiap pagi di toko roti Avanos kami.",
+    "allergenWarningTitle": "Peringatan Alergen",
+    "allergenWarningDesc": "Produk ini mengandung:",
+    "naturalTitle": "Alami & Bebas Aditif",
+    "naturalDesc": "Produk ini tidak mengandung bahan pengawet buatan atau bahan kimia tambahan.",
+    "categories": {
+      "all": "Semua",
+      "bakery": "Toko roti",
+      "pastry": "kue kering",
+      "desserts": "Makanan penutup",
+      "drinks": "Minuman"
+    }
+  },
+  "aboutPage": {
+    "subtitle": "Warisan Kita",
+    "title": "Kisah Rasa Setengah Abad",
+    "p1": "Kami memulai usaha kami sebagai toko roti kecil di Avanos, jantung kota Cappadocia, pada tahun 1978. Satu-satunya hal yang tidak berubah sejak saat itu adalah hasrat kami terhadap pembuatan kue buatan tangan dan sikap kami yang tidak kenal kompromi terhadap kualitas.",
+    "p2": "Bagi kami, membuat kue bukan sekedar profesi, melainkan kerajinan yang diwariskan dari generasi ke generasi. Di oven kami yang menyala sebelum fajar setiap pagi, roti penghuni pertama, croissant renyah, dan roti beraroma mahaleb yang penuh nostalgia telah disiapkan.",
+    "p3": "Menemukan bahan-bahan terbaik, mendukung produsen lokal, dan menggunakan produk segar musiman adalah prinsip terbesar kami. Dengan memadukan mentega Perancis, coklat Belgia, dan buah-buahan dari tanah subur Avanos, kami menyatukan teknik kue modern dan cita rasa tradisional.",
+    "p4": "Kami mengundang Anda untuk menjadi bagian dari dedikasi diam-diam dan perjalanan rasa ini."
+  },
+  "contactPage": {
+    "subtitle": "Kontak",
+    "title": "Hubungi kami",
+    "addressTitle": "Alamat kami",
+    "addressFull": "Jalan Inonu, No: 16\nAvanos / Nevsehir, Kapadokia",
+    "phoneTitle": "Telepon",
+    "emailTitle": "Surel",
+    "formTitle": "Menulis kepada Kami",
+    "nameLabel": "Nama Lengkap",
+    "emailLabel": "Alamat Surel",
+    "msgLabel": "Pesan Anda",
+    "namePlaceholder": "misalnya John Doe",
+    "emailPlaceholder": "halo@example.com",
+    "msgPlaceholder": "Apa yang bisa kami bantu?",
+    "submitBtn": "Kirim"
+  },
+  "menuItems": [
+    null,
+    {
+      "name": "Roti Avanos penghuni pertama",
+      "desc": "Roti penghuni pertama tradisional difermentasi selama 48 jam dengan ragi alami, dipanggang dalam oven batu."
+    },
+    {
+      "name": "Croissant Perancis Biasa",
+      "desc": "Croissant buatan tangan dengan 100% mentega Prancis, renyah di luar dan lembut di dalam."
+    },
+    {
+      "name": "Croissant Almond & Frangipane",
+      "desc": "Croissant gourmet dipanggang dengan isian krim almond dan irisan lapisan almond."
+    },
+    {
+      "name": "Roti Paskah Beraroma Mahaleb",
+      "desc": "Resep asli tidak berubah sejak 1978. Roti kepang dengan permen karet damar wangi dan aroma mahaleb."
+    },
+    {
+      "name": "Eclair Cokelat Belgia",
+      "desc": "Diisi dengan krim pastry spesial, di atasnya diberi ganache coklat Belgia premium."
+    },
+    {
+      "name": "Mille-Feuille Renyah Stroberi",
+      "desc": "Krim vanilla dan stroberi Avanos segar di antara lapisan puff pastry renyah yang disiapkan setiap hari."
+    },
+    {
+      "name": "Kue Keju Artisan San Sebastian",
+      "desc": "Kue keju klasik Spanyol modern dengan bagian tengah mengalir dan permukaan atas sedikit gosong."
+    },
+    {
+      "name": "Avanos Simit",
+      "desc": "Bagel renyah direndam dalam air panas dengan molase, ditaburi banyak wijen dan dipanggang dalam oven batu."
+    },
+    {
+      "name": "Putih Datar",
+      "desc": "Kopi beludru diolah dengan espresso double shot dan susu segar berbusa mikro."
+    },
+    {
+      "name": "Limun Pengrajin Buatan Sendiri",
+      "desc": "Minuman menyegarkan yang terbuat dari lemon Bodrum yang diperas dingin dan daun mint segar."
+    }
+  ],
+  "products": {
+    "p1Title": "Kue Khusus",
+    "p1Desc": "Dimana keahlian bertemu kemewahan. Kue butik yang dirancang untuk hari istimewa Anda.",
+    "p2Title": "Kue Kering Tradisional",
+    "p2Desc": "Roti Paskah beraroma mahaleb kami yang terkenal dan resep klasik disiapkan dengan tradisi oven batu.",
+    "p3Title": "Makanan Penutup Susu",
+    "p3Desc": "Makanan penutup susu kami yang ringan dan lezat disiapkan dengan metode tradisional.",
+    "p4Title": "Hadiah Butik",
+    "p4Desc": "Rasa premium yang dikemas dengan cermat yang akan memberikan momen spesial kepada orang yang Anda cintai."
+  }
+}

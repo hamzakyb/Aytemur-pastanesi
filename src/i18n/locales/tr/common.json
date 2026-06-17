@@ -1,0 +1,141 @@
+{
+  "nav": {
+    "about": "Hakkımızda",
+    "products": "Ürünlerimiz",
+    "menu": "Menü",
+    "contact": "İletişim",
+    "home": "Anasayfa",
+    "digitalMenu": "Dijital Menü",
+    "qrCode": "QR Kod"
+  },
+  "hero": {
+    "titleTop": "1978'den Beri",
+    "titleBottom": "Tutkuyla Yoğrulan Tatlar.",
+    "desc": "Gerçek lezzetin sırrı, detaylara gösterilen özende gizlidir. Yarım asırdır Avanos'ta her güne aynı heyecanla başlıyor; ince bir işçilikle hazırladığımız ürünlerle size sadece bir tat değil, özel bir deneyim sunuyoruz."
+  },
+  "homeMenu": {
+    "title": "Günlük Fırın Menümüz",
+    "desc": "Avanos fırınımızdan her sabah taze çıkan artizan ekmekler, sıcak kruvasanlar ve günlük hazırlanan butik tatlı seçkimizi keşfedin.",
+    "btn": "Menüyü İncele"
+  },
+  "homeProducts": {
+    "title": "Ürünlerimiz",
+    "swipe": "Kaydırarak İnceleyin",
+    "btn": "Tüm Ürünleri Gör"
+  },
+  "testimonials": {
+    "title": "müdavimlerimizin kaleminden"
+  },
+  "instagram": {
+    "title": "kadrajımızdan lezzetler",
+    "desc": "@aytemurpastanesi — anlarımızı ve artizan hikayelerimizi instagram'da takip edin.",
+    "btn": "Takip Edin"
+  },
+  "footer": {
+    "locationTitle": "Konum & İletişim",
+    "address": "İnönü Caddesi, No: 16",
+    "city": "Avanos / Kapadokya",
+    "hoursTitle": "Çalışma Saatleri",
+    "weekdays": "Hafta İçi",
+    "saturday": "Cumartesi",
+    "sunday": "Pazar",
+    "copy": "© 1978 Aytemur Pastanesi. Avanos'tan Lezzet Mirası."
+  },
+  "menuPage": {
+    "searchPlaceholder": "Menüde arayın...",
+    "notFound": "Aradığınız kriterde ürün bulunamadı.",
+    "popular": "Popüler",
+    "allergen": "Alerjen",
+    "taxInfo": "Fiyatlarımıza KDV dahildir. Alerjiniz varsa lütfen sipariş vermeden önce personelimize bilgi veriniz.",
+    "copy": "© 1978 Aytemur Pastanesi. Tüm hakları saklıdır.",
+    "qrTitle": "Menü QR Kodu",
+    "fresh": "Her sabah Avanos fırınımızda taze hazırlanır.",
+    "allergenWarningTitle": "Alerjen Uyarısı",
+    "allergenWarningDesc": "Bu ürün şunları içermektedir:",
+    "naturalTitle": "Doğal ve Katkısız",
+    "naturalDesc": "Bu ürün herhangi bir yapay koruyucu veya kimyasal katkı maddesi içermez.",
+    "categories": {
+      "all": "Tümü",
+      "bakery": "Fırın",
+      "pastry": "Pastacılık",
+      "desserts": "Tatlılar",
+      "drinks": "İçecekler"
+    }
+  },
+  "aboutPage": {
+    "subtitle": "Kurumsal Tarihçemiz",
+    "title": "Yarım Asırlık Lezzet Vizyonu",
+    "p1": "1978 yılında Avanos’ta temelleri atılan Aytemur Pastanesi olarak, köklü lezzet mirasımızı modern üretim standartlarıyla günümüze taşıyoruz.",
+    "p2": "Üretim süreçlerimizde geleneksel el işçiliğinin değerini merkeze alıyor; her bir ürünümüzü özenle seçilmiş, yüksek standartlı malzemelerle hazırlıyoruz. Yılların getirdiği tecrübeyi, yenilikçi bir vizyonla harmanlıyoruz.",
+    "p3": "Yöresel reçetelerimizi ve dünya pastacılığının seçkin örneklerini aynı çatı altında buluştururken; ürün kalitesinde sürekliliği sağlamak ve misafir memnuniyetini en üst düzeyde tutmak temel önceliğimizdir.",
+    "p4": "Yarım asra yaklaşan kurum kültürümüzün bir yansıması olan bu lezzet deneyimini sizlerle paylaşmaktan memnuniyet duyuyoruz."
+  },
+  "contactPage": {
+    "subtitle": "İletişim",
+    "title": "Bize Ulaşın",
+    "addressTitle": "Adresimiz",
+    "addressFull": "İnönü Caddesi, No: 16\nAvanos / Nevşehir, Kapadokya",
+    "phoneTitle": "Telefon",
+    "emailTitle": "E-Posta",
+    "formTitle": "Bize Yazın",
+    "nameLabel": "Adınız Soyadınız",
+    "emailLabel": "E-Posta Adresiniz",
+    "msgLabel": "Mesajınız",
+    "namePlaceholder": "Örn. Selim Aksoy",
+    "emailPlaceholder": "hello@example.com",
+    "msgPlaceholder": "Size nasıl yardımcı olabiliriz?",
+    "submitBtn": "Gönder"
+  },
+  "menuItems": {
+    "1": {
+      "name": "Ekşi Mayalı Avanos Ekmeği",
+      "desc": "Doğal maya ile 48 saat fermente edilmiş, taş tabanlı fırında pişmiş geleneksel ekşi mayalı ekmek."
+    },
+    "2": {
+      "name": "Sade Fransız Kruvasanı",
+      "desc": "%100 Fransız tereyağı ile hazırlanmış, dışı çıtır içi yumuşak kat kat artizan kruvasan."
+    },
+    "3": {
+      "name": "Bademli & Franjipan Kruvasan",
+      "desc": "Badem kremalı dolgusu ve file badem kaplamasıyla fırınlanmış gurme kruvasan."
+    },
+    "4": {
+      "name": "Mahlep Kokulu Paskalya Çöreği",
+      "desc": "1978'den beri değişmeyen orijinal reçete. Damla sakızı ve mahlep kokulu örgü çörek."
+    },
+    "5": {
+      "name": "Belçika Çikolatalı Ekler",
+      "desc": "Özel pastacı kreması dolgulu, üzerinde premium Belçika çikolatası ganajı ile."
+    },
+    "6": {
+      "name": "Çilekli Çıtır Milföy",
+      "desc": "Günlük hazırlanan çıtır milföy katları arasında vanilyalı krema ve taze Avanos çilekleri."
+    },
+    "7": {
+      "name": "Artizan San Sebastian Cheesecake",
+      "desc": "İçi akışkan kıvamda, hafif yanık üst yüzeyi ile modern İspanyol klasiği cheesecake."
+    },
+    "8": {
+      "name": "Avanos Simidi",
+      "desc": "Pekmezli sıcak su banyosunda bekletildikten sonra bol susamla kaplanıp taş fırında pişen çıtır simit."
+    },
+    "9": {
+      "name": "Flat White",
+      "desc": "Double shot espresso ve mikro köpüklü taze süt ile hazırlanan kadifemsi kahve."
+    },
+    "10": {
+      "name": "Ev Yapımı Artizan Limonata",
+      "desc": "Taze nane yaprakları ve Bodrum limonlarının soğuk sıkımından elde edilen ferahlatıcı içecek."
+    }
+  },
+  "products": {
+    "p1Title": "Tasarım Pastalar",
+    "p1Desc": "Tüm özel davetleriniz ve kutlamalarınız için, ustalarımız tarafından her detayı tek tek işlenerek hayata geçirilen özel tasarım pastalar.",
+    "p2Title": "Geleneksel Hamur İşleri",
+    "p2Desc": "Meşhur mahlep kokulu Paskalya çöreğimiz ve taş fırın geleneğiyle hazırlanan klasik reçetelerimiz.",
+    "p3Title": "Sütlü Tatlılar",
+    "p3Desc": "Geleneksel yöntemlerle hazırlanan, hafif ve lezzetli sütlü tatlılarımız.",
+    "p4Title": "Butik Hediyelikler",
+    "p4Desc": "Sevdiklerinize özel anlar yaşatacak, özenle paketlenmiş premium lezzetler."
+  }
+}

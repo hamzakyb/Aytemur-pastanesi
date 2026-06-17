@@ -1,0 +1,142 @@
+{
+  "nav": {
+    "about": "Chi siamo",
+    "products": "I nostri prodotti",
+    "menu": "Menù",
+    "contact": "Contatto",
+    "home": "Casa",
+    "digitalMenu": "Menù digitale",
+    "qrCode": "Codice QR"
+  },
+  "hero": {
+    "titleTop": "Dal 1978",
+    "titleBottom": "Sapori Artigianali.",
+    "desc": "Nel cuore di Avanos, una dedizione silenziosa lunga quasi mezzo secolo. Un patrimonio artigianale unito alla tradizione del maestro-apprendista, che porta con sé lo spirito unico della Cappadocia. Ognuna delle nostre ricette riflette le ricette tradizionali tramandate di generazione in generazione e un approccio di pasticceria artigianale."
+  },
+  "homeMenu": {
+    "title": "Menu giornaliero di panetteria",
+    "desc": "Scopri il pane artigianale, i croissant caldi e la nostra selezione di dolci boutique preparati ogni mattina, freschi dal nostro panificio Avanos ogni mattina.",
+    "btn": "Visualizza il menu"
+  },
+  "homeProducts": {
+    "title": "I nostri prodotti",
+    "swipe": "Scorri per esplorare",
+    "btn": "Vedi tutti i prodotti"
+  },
+  "testimonials": {
+    "title": "dai nostri clienti abituali"
+  },
+  "instagram": {
+    "title": "sapori dal nostro obiettivo",
+    "desc": "@aytemurpastanesi — segui i nostri momenti e le storie degli artigiani su Instagram.",
+    "btn": "Seguici"
+  },
+  "footer": {
+    "locationTitle": "Posizione e contatti",
+    "address": "Via Inonu, n. 16",
+    "city": "Avanos/Cappadocia",
+    "hoursTitle": "Orario di lavoro",
+    "weekdays": "Giorni feriali",
+    "saturday": "Sabato",
+    "sunday": "Domenica",
+    "copy": "© 1978 Pasticceria Aytemur. Eredità del sapore di Avanos."
+  },
+  "menuPage": {
+    "searchPlaceholder": "Menù di ricerca...",
+    "notFound": "Nessun prodotto trovato corrispondente ai tuoi criteri.",
+    "popular": "Popolare",
+    "allergen": "Allergene",
+    "taxInfo": "I prezzi includono l'IVA. Se soffri di allergie, informa il nostro staff prima di ordinare.",
+    "copy": "© 1978 Pasticceria Aytemur. Tutti i diritti riservati.",
+    "qrTitle": "Codice QR del menù",
+    "fresh": "Preparato fresco ogni mattina nella nostra panetteria di Avanos.",
+    "allergenWarningTitle": "Avvertimento sugli allergeni",
+    "allergenWarningDesc": "Questo prodotto contiene:",
+    "naturalTitle": "Naturale e senza additivi",
+    "naturalDesc": "Questo prodotto non contiene conservanti artificiali o additivi chimici.",
+    "categories": {
+      "all": "Tutto",
+      "bakery": "Panetteria",
+      "pastry": "Pasticceria",
+      "desserts": "Dessert",
+      "drinks": "Bevande"
+    }
+  },
+  "aboutPage": {
+    "subtitle": "Il nostro patrimonio",
+    "title": "Una storia di sapori lunga mezzo secolo",
+    "p1": "Abbiamo iniziato come una piccola panetteria ad Avanos, nel cuore della Cappadocia, nel 1978. L'unica cosa che non è cambiata da allora è la nostra passione per la panificazione artigianale e la nostra posizione senza compromessi sulla qualità.",
+    "p2": "Per noi la pasticceria non è solo una professione, ma un mestiere tramandato di generazione in generazione. Nei nostri forni che ardono ogni mattina prima dell'alba, vengono preparati il ​​nostro pane a lievitazione naturale, i croissant croccanti e i nostalgici panini al profumo di mahaleb.",
+    "p3": "Trovare gli ingredienti migliori, sostenere i produttori locali e utilizzare prodotti freschi di stagione sono i nostri principi più importanti. Unendo burro francese, cioccolato belga e frutti provenienti dai fertili terreni di Avanos, uniamo moderne tecniche di pasticceria e sapori tradizionali.",
+    "p4": "Ti invitiamo a prendere parte a questa dedizione silenziosa e al viaggio del gusto."
+  },
+  "contactPage": {
+    "subtitle": "Contatto",
+    "title": "Mettiti in contatto",
+    "addressTitle": "Il nostro indirizzo",
+    "addressFull": "Via Inonu, n. 16\nAvanos/Nevsehir, Cappadocia",
+    "phoneTitle": "Telefono",
+    "emailTitle": "E-mail",
+    "formTitle": "Scrivici",
+    "nameLabel": "Nome completo",
+    "emailLabel": "Indirizzo e-mail",
+    "msgLabel": "Il tuo messaggio",
+    "namePlaceholder": "per esempio. John Do",
+    "emailPlaceholder": "ciao@esempio.com",
+    "msgPlaceholder": "Come possiamo aiutarti?",
+    "submitBtn": "Invia"
+  },
+  "menuItems": [
+    null,
+    {
+      "name": "Pane di Avanos a lievitazione naturale",
+      "desc": "Pane tradizionale a pasta madre fermentato per 48 ore con lievito naturale, cotto nel forno a pietra."
+    },
+    {
+      "name": "Croissant francese semplice",
+      "desc": "Croissant artigianale con burro 100% francese, croccante fuori e morbido a strati dentro."
+    },
+    {
+      "name": "Croissant Mandorle E Frangipane",
+      "desc": "Croissant gourmet al forno con ripieno di crema di mandorle e copertura di mandorle a lamelle."
+    },
+    {
+      "name": "Panino pasquale profumato Mahaleb",
+      "desc": "Ricetta originale immutata dal 1978. Panino intrecciato con gomma di mastice e profumo di mahaleb."
+    },
+    {
+      "name": "Eclair belga al cioccolato",
+      "desc": "Ripieno di speciale crema pasticciera, guarnito con pregiata ganache al cioccolato belga."
+    },
+    {
+      "name": "Millefoglie Croccante Alle Fragole",
+      "desc": "Crema alla vaniglia e fragole fresche di Avanos tra croccanti strati di pasta sfoglia preparati quotidianamente."
+    },
+    {
+      "name": "Cheesecake Artigianale San Sebastiano",
+      "desc": "Cheesecake classico spagnolo moderno con un centro fluente e superficie superiore leggermente bruciata."
+    },
+    {
+      "name": "Avanos Simit",
+      "desc": "Bagel croccante imbevuto di acqua calda con melassa, ricoperto di abbondante sesamo e cotto nel forno a pietra."
+    },
+    {
+      "name": "Bianco piatto",
+      "desc": "Caffè vellutato preparato con espresso double shot e latte fresco microschiumato."
+    },
+    {
+      "name": "Limonata Artigianale Fatta In Casa",
+      "desc": "Bevanda rinfrescante a base di limoni di Bodrum spremuti a freddo e foglie di menta fresca."
+    }
+  ],
+  "products": {
+    "p1Title": "Torte personalizzate",
+    "p1Desc": "Dove l'artigianato incontra il lusso. Torte boutique pensate per i vostri giorni speciali.",
+    "p2Title": "Dolci Tradizionali",
+    "p2Desc": "Il nostro famoso panino pasquale profumato mahaleb e le ricette classiche preparate con la tradizione del forno a pietra.",
+    "p3Title": "Dolci Al Latte",
+    "p3Desc": "I nostri dolci al latte leggeri e deliziosi preparati con metodi tradizionali.",
+    "p4Title": "Regali di boutique",
+    "p4Desc": "Gusti premium accuratamente confezionati che regaleranno momenti speciali ai tuoi cari."
+  }
+}

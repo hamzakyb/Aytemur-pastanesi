@@ -1,0 +1,142 @@
+{
+  "nav": {
+    "about": "Sobre nós",
+    "products": "Nossos produtos",
+    "menu": "Cardápio",
+    "contact": "Contato",
+    "home": "Página inicial",
+    "digitalMenu": "Cardápio Digital",
+    "qrCode": "Código QR"
+  },
+  "hero": {
+    "titleTop": "Desde 1978",
+    "titleBottom": "Sabores Artesanais.",
+    "desc": "No coração de Avanos, uma dedicação silenciosa que abrange quase meio século. Uma herança artesanal mesclada com a tradição mestre-aprendiz, carregando o espírito único da Capadócia. Cada uma das nossas receitas é um reflexo de receitas tradicionais transmitidas através de gerações e de uma abordagem de pastelaria boutique."
+  },
+  "homeMenu": {
+    "title": "Menu diário de padaria",
+    "desc": "Descubra pães artesanais, croissants quentes e nossa seleção de sobremesas artesanais preparadas diariamente, fresquinhas em nossa padaria Avanos, todas as manhãs.",
+    "btn": "Ver cardápio"
+  },
+  "homeProducts": {
+    "title": "Nossos produtos",
+    "swipe": "Deslize para explorar",
+    "btn": "Ver todos os produtos"
+  },
+  "testimonials": {
+    "title": "dos nossos frequentadores"
+  },
+  "instagram": {
+    "title": "sabores da nossa lente",
+    "desc": "@aytemurpastanesi — acompanhe nossos momentos e histórias de artesãos no instagram.",
+    "btn": "Siga-nos"
+  },
+  "footer": {
+    "locationTitle": "Localização e contato",
+    "address": "Rua Inonu, nº: 16",
+    "city": "Avanos / Capadócia",
+    "hoursTitle": "Horário de trabalho",
+    "weekdays": "Dias da semana",
+    "saturday": "Sábado",
+    "sunday": "Domingo",
+    "copy": "© 1978 Aytemur Patisserie. Sabor Heritage de Avanos."
+  },
+  "menuPage": {
+    "searchPlaceholder": "Menu de pesquisa...",
+    "notFound": "Nenhum produto encontrado que corresponda aos seus critérios.",
+    "popular": "Populares",
+    "allergen": "Alérgeno",
+    "taxInfo": "Os preços incluem IVA. Se você tem alergias, informe nossa equipe antes de fazer o pedido.",
+    "copy": "© 1978 Aytemur Patisserie. Todos os direitos reservados.",
+    "qrTitle": "Menu QR Code",
+    "fresh": "Preparado fresco todas as manhãs na nossa padaria Avanos.",
+    "allergenWarningTitle": "Aviso de alérgeno",
+    "allergenWarningDesc": "Este produto contém:",
+    "naturalTitle": "Natural e sem aditivos",
+    "naturalDesc": "Este produto não contém conservantes artificiais ou aditivos químicos.",
+    "categories": {
+      "all": "Todos",
+      "bakery": "Padaria",
+      "pastry": "Pastelaria",
+      "desserts": "Sobremesas",
+      "drinks": "Bebidas"
+    }
+  },
+  "aboutPage": {
+    "subtitle": "Nossa herança",
+    "title": "Uma história de sabores de meio século",
+    "p1": "Começámos como uma pequena padaria em Avanos, no coração da Capadócia, em 1978. A única coisa que não mudou desde então é a nossa paixão pela pastelaria artesanal e a nossa postura intransigente em relação à qualidade.",
+    "p2": "Para nós, a pastelaria não é apenas uma profissão, mas sim um ofício transmitido de geração em geração. Em nossos fornos que queimam antes do amanhecer todas as manhãs, são preparados nossos pães de massa fermentada, croissants crocantes e pãezinhos nostálgicos com aroma de mahaleb.",
+    "p3": "Encontrar os melhores ingredientes, apoiar os produtores locais e utilizar produtos frescos e sazonais são os nossos maiores princípios. Ao misturar manteiga francesa, chocolate belga e frutas dos solos férteis de Avanos, reunimos técnicas modernas de pastelaria e sabores tradicionais.",
+    "p4": "Convidamos você a fazer parte dessa dedicação silenciosa e jornada de sabores."
+  },
+  "contactPage": {
+    "subtitle": "Contato",
+    "title": "Entre em contato",
+    "addressTitle": "Nosso endereço",
+    "addressFull": "Rua Inonu, nº: 16\nAvanos/Nevsehir, Capadócia",
+    "phoneTitle": "Telefone",
+    "emailTitle": "E-mail",
+    "formTitle": "Escreva para nós",
+    "nameLabel": "Nome Completo",
+    "emailLabel": "Endereço de e-mail",
+    "msgLabel": "Sua mensagem",
+    "namePlaceholder": "por exemplo John Doe",
+    "emailPlaceholder": "olá@exemplo.com",
+    "msgPlaceholder": "Como podemos ajudá-lo?",
+    "submitBtn": "Enviar"
+  },
+  "menuItems": [
+    null,
+    {
+      "name": "Pão Sourdough Avanos",
+      "desc": "Pão tradicional fermentado durante 48 horas com fermento natural, assado em forno de pedra."
+    },
+    {
+      "name": "Croissant Francês Simples",
+      "desc": "Croissant artesanal com manteiga 100% francesa, crocante por fora e camadas macias por dentro."
+    },
+    {
+      "name": "Croissant de Amêndoa e Frangipane",
+      "desc": "Croissant gourmet assado com recheio de creme de amêndoa e cobertura de amêndoa fatiada."
+    },
+    {
+      "name": "Pão de Páscoa com aroma de Mahaleb",
+      "desc": "Receita original inalterada desde 1978. Pão trançado com goma de aroeira e aroma de mahaleb."
+    },
+    {
+      "name": "Éclair de chocolate belga",
+      "desc": "Recheado com creme de confeiteiro especial, coberto com ganache de chocolate belga premium."
+    },
+    {
+      "name": "Mille-Feuille crocante de morango",
+      "desc": "Creme de baunilha e morangos frescos Avanos entre camadas de massa folhada crocante preparada diariamente."
+    },
+    {
+      "name": "Cheesecake Artesanal San Sebastian",
+      "desc": "Cheesecake clássico espanhol moderno com centro fluido e superfície superior ligeiramente queimada."
+    },
+    {
+      "name": "Avanos Simit",
+      "desc": "Bagel crocante embebido em água quente com melaço, coberto com bastante gergelim e assado em forno de pedra."
+    },
+    {
+      "name": "Branco liso",
+      "desc": "Café aveludado preparado com expresso duplo e leite fresco microespumado."
+    },
+    {
+      "name": "Limonada Artesanal Caseira",
+      "desc": "Bebida refrescante feita com limões Bodrum prensados ​​a frio e folhas de hortelã fresca."
+    }
+  ],
+  "products": {
+    "p1Title": "Bolos Personalizados",
+    "p1Desc": "Onde o artesanato encontra o luxo. Bolos boutique pensados ​​para seus dias especiais.",
+    "p2Title": "Pastelaria Tradicional",
+    "p2Desc": "O nosso famoso pão de Páscoa com aroma de mahaleb e receitas clássicas preparadas com a tradição do forno de pedra.",
+    "p3Title": "Sobremesas de Leite",
+    "p3Desc": "As nossas leves e deliciosas sobremesas lácteas preparadas com métodos tradicionais.",
+    "p4Title": "Presentes de boutique",
+    "p4Desc": "Sabores premium cuidadosamente embalados que proporcionarão momentos especiais aos seus entes queridos."
+  }
+}
