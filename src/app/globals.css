@@ -110,3 +110,11 @@ body {
 .slider-marquee:hover {
   animation-play-state: paused;
 }
+
+.bleed-text {
+  white-space: nowrap;
+  margin-left: -5vw;
+  font-size: clamp(4rem, 15vw, 12rem);
+  line-height: 0.8;
+  letter-spacing: -0.05em;
+}

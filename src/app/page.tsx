@@ -249,42 +249,45 @@ export default function Home() {
 
 
 
-      <main className="mt-24 flex-1">
-        {/* Split Screen Hero */}
-        <section className="relative min-h-[100vh] md:min-h-[calc(100vh-6rem)] w-full flex flex-col md:flex-row" id="hero">
-          
-          {/* Background Image for Mobile Only */}
-          <div className="absolute inset-0 z-0 md:hidden">
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img
-              alt="Aytemur Pastanesi Interior"
-              className="w-full h-full object-cover object-center grayscale-[10%]"
-              src="/hero-bg.png"
-            />
-          </div>
-
-          {/* Text Section: Glass Card on Mobile, Solid White on Desktop */}
-          <div className="flex-1 flex flex-col items-center justify-center px-5 md:p-32 text-center md:text-left relative z-10 md:bg-white pt-24 md:pt-32">
-            <ScrollReveal className="max-w-md w-full bg-white/85 md:bg-transparent backdrop-blur-xl md:backdrop-blur-none p-10 md:p-0 shadow-[0_20px_40px_-10px_rgba(0,0,0,0.1)] md:shadow-none border border-white/60 md:border-none" yOffset={20}>
-              <span className="md:hidden font-sans text-[10px] tracking-[0.2em] text-[#735c00] uppercase mb-6 block font-bold">Aytemur Pastanesi</span>
-              <h1 className="font-display text-[38px] md:text-[64px] font-bold leading-[1.15] mb-6 md:mb-12 text-black tracking-tight">
-                {t("hero.titleTop")}<br />
-                <span className="italic text-gray-500 font-normal">{t("hero.titleBottom")}</span>
+      <main className="flex-1">
+        {/* Obsidian Premium Hero Section */}
+        <section className="relative w-full h-screen min-h-[800px] flex items-center overflow-hidden bg-[#050505]" id="hero">
+          <div 
+            className="absolute right-0 top-0 w-[80%] md:w-[60%] h-full bg-cover bg-center grayscale opacity-40 mix-blend-luminosity"
+            style={{ 
+              backgroundImage: "url('https://lh3.googleusercontent.com/aida/AP1WRLsxdGQXvguN966RY7B313VA6Ux3vqRYBmOabPPNfpTfv7cTjogpRYcEJyWUI8i2p27NZcHUfUy4-haqhyKUQodBQmGndeyiqOFhmgluJk0mc9IgDTSyeLo61ileRQa4gcg85UkVO4WG0p_PGyslQ-Cezlrw4FyZtokMx6KXsRaX-JJ557MqqX7SiMXRaY3CMaahw2kOX2ZXJ8sGw6xr_PWGkxc2yF1QpvsP5LWklhpKLhfogDILjpIuE1k')",
+              WebkitMaskImage: "linear-gradient(to left, black, transparent)",
+              maskImage: "linear-gradient(to left, black, transparent)"
+            }}
+          />
+          <div className="absolute inset-0 bg-gradient-to-r from-[#050505] via-[#050505]/80 to-transparent z-10"></div>
+          <div className="relative z-20 px-6 md:px-24 w-full flex flex-col justify-center mt-20">
+            <ScrollReveal yOffset={30}>
+              <h1 className="font-display text-[#fddd7c] bleed-text italic mb-4 opacity-90 drop-shadow-2xl">
+                1978'den
               </h1>
-              <p className="font-sans text-[14px] md:text-[16px] font-light leading-relaxed text-gray-600 md:px-0">
-                {t("hero.desc")}
-              </p>
             </ScrollReveal>
-          </div>
-          
-          {/* Image Section: Hidden on Mobile, Right on Desktop */}
-          <div className="hidden md:block w-full h-[50vh] md:h-auto md:flex-1 relative overflow-hidden bg-gray-50">
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img
-              alt="Aytemur Pastanesi Interior"
-              className="absolute inset-0 w-full h-full object-cover object-center grayscale-[10%]"
-              src="/hero-bg.png"
-            />
+            <ScrollReveal yOffset={30} delay={0.15}>
+              <h1 className="font-display text-white bleed-text ml-12 md:ml-32 mb-12 mix-blend-difference">
+                Beri.
+              </h1>
+            </ScrollReveal>
+            <ScrollReveal yOffset={30} delay={0.3} className="max-w-xl md:ml-32 relative">
+              <div className="absolute -left-8 top-0 w-px h-full bg-[#fddd7c]/30"></div>
+              <h2 className="text-2xl md:text-4xl font-display text-white mb-6 font-light italic">
+                {t("hero.titleBottom", "Tutkuyla Yoğrulan Tatlar.")}
+              </h2>
+              <p className="font-sans text-sm md:text-base text-white/60 mb-12 font-light leading-relaxed tracking-wide">
+                {t("hero.desc", "Gerçek lezzetin sırrı, detaylara gösterilen özende gizlidir. Yarım asırdır Avanos'ta her güne aynı heyecanla başlıyor; ince bir işçilikle hazırladığımız ürünlerle size sadece bir tat değil, özel bir deneyim sunuyoruz.")}
+              </p>
+              <Link 
+                className="inline-flex items-center gap-4 text-xs font-sans uppercase tracking-[0.2em] text-white hover:text-[#fddd7c] group transition-all duration-500"
+                href="/menu"
+              >
+                {t("homeMenu.btn", "Menüyü İncele")}
+                <span className="w-12 h-px bg-white/50 group-hover:bg-[#fddd7c] transition-all duration-500 group-hover:w-20"></span>
+              </Link>
+            </ScrollReveal>
           </div>
         </section>
 

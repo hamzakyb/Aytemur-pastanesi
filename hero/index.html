@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html class="scroll-smooth dark" lang="tr">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Aytemur Pastanesi | Avanos'tan Lezzet Mirası</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&amp;family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+        rel="stylesheet">
+    <script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "surface-dim": "#dcd9dd",
+                        "on-primary-container": "#ac9181",
+                        "on-secondary-fixed": "#231b00",
+                        "on-tertiary": "#ffffff",
+                        "surface-bright": "#fbf8fc",
+                        "on-primary-fixed": "#28180d",
+                        "warm-cream": "#FAF7F2",
+                        "surface-container-lowest": "#ffffff",
+                        "patisserie-gold": "#fddd7c", /* Brightened for dark mode contrast */
+                        "secondary-container": "#fddd7c",
+                        "tertiary-fixed-dim": "#d2c4b2",
+                        "surface-container-low": "#f5f3f6",
+                        "on-error": "#ffffff",
+                        "muted-text": "#8f8a85",
+                        "secondary-fixed": "#ffe085",
+                        "on-primary-fixed-variant": "#574335",
+                        "primary-container": "#3d2b1f",
+                        "tertiary-container": "#362e21",
+                        "surface-container-high": "#eae7eb",
+                        "surface-variant": "#e4e1e5",
+                        "tertiary-fixed": "#efe0cd",
+                        "inverse-surface": "#303033",
+                        "primary-fixed": "#fbddca",
+                        "on-tertiary-fixed": "#221a0f",
+                        "error": "#ba1a1a",
+                        "background": "#050505", /* Obsidian */
+                        "on-tertiary-container": "#a19584",
+                        "tertiary": "#20190e",
+                        "surface": "#0a0a0a", /* Charcoal */
+                        "primary-fixed-dim": "#dec1af",
+                        "on-background": "#e4e1e5",
+                        "surface-tint": "#705a4c",
+                        "surface-container-highest": "#e4e1e5",
+                        "on-secondary-container": "#776005",
+                        "primary": "#26170c",
+                        "on-surface-variant": "#d2c4bc",
+                        "on-primary": "#ffffff",
+                        "outline": "#81756e",
+                        "on-secondary": "#ffffff",
+                        "on-tertiary-fixed-variant": "#4f4538",
+                        "on-surface": "#e4e1e5",
+                        "secondary": "#735c00",
+                        "inverse-on-surface": "#f3f0f4",
+                        "outline-variant": "#4f453f",
+                        "on-secondary-fixed-variant": "#574500",
+                        "on-error-container": "#93000a",
+                        "secondary-fixed-dim": "#e3c466",
+                        "inverse-primary": "#dec1af",
+                        "surface-container": "#111111",
+                        "chocolate-deep": "#1a1512",
+                        "error-container": "#ffdad6"
+                    },
+                    "fontFamily": {
+                        "headline-md": ["Playfair Display"],
+                        "label-md": ["Montserrat"],
+                        "body-md": ["Montserrat"],
+                        "headline-lg": ["Playfair Display"],
+                        "display-lg-mobile": ["Playfair Display"],
+                        "label-lg": ["Montserrat"],
+                        "display-lg": ["Playfair Display"],
+                        "body-sm": ["Montserrat"],
+                        "body-lg": ["Montserrat"]
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            background-color: #050505;
+            color: #e4e1e5;
+        }
+
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24;
+        }
+
+        /* Avant-garde typography treatments */
+        .bleed-text {
+            white-space: nowrap;
+            margin-left: -5vw;
+            font-size: clamp(4rem, 15vw, 12rem);
+            line-height: 0.8;
+            letter-spacing: -0.05em;
+        }
+
+        .blend-exclusion {
+            mix-blend-mode: exclusion;
+        }
+
+        /* Custom scrollbar for dark theme */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: #050505;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: #362e21;
+        }
+    </style>
+</head>
+
+<body class="antialiased overflow-x-hidden selection:bg-patisserie-gold selection:text-black">
+    <!-- Header Component -->
+    <header
+        class="fixed top-0 w-full z-50 bg-background/50 backdrop-blur-xl border-b border-white/5 flex justify-between items-center px-6 md:px-12 py-6 mix-blend-difference">
+        <a class="flex items-center gap-2 group" href="/">
+            <span
+                class="font-display-lg text-2xl md:text-3xl text-white tracking-tighter group-hover:italic transition-all duration-500">Aytemur.</span>
+        </a>
+        <nav class="hidden md:flex gap-12 items-center">
+            <a class="text-xs font-label-lg uppercase tracking-[0.3em] text-patisserie-gold border-b border-patisserie-gold/30 pb-1"
+                href="/">Anasayfa</a>
+            <a class="text-xs font-label-lg uppercase tracking-[0.3em] text-white/50 hover:text-white transition-all duration-500"
+                href="/about">Hakkımızda</a>
+            <a class="text-xs font-label-lg uppercase tracking-[0.3em] text-white/50 hover:text-white transition-all duration-500"
+                href="/products">Ürünlerimiz</a>
+            <a class="text-xs font-label-lg uppercase tracking-[0.3em] text-white/50 hover:text-white transition-all duration-500"
+                href="/menu">Menü</a>
+            <a class="text-xs font-label-lg uppercase tracking-[0.3em] text-white/50 hover:text-white transition-all duration-500"
+                href="/contact">İletişim</a>
+        </nav>
+        <div class="flex items-center gap-6">
+            <button class="text-white hover:text-patisserie-gold transition-all duration-500">
+                <span class="material-symbols-outlined text-2xl font-light">shopping_bag</span>
+            </button>
+            <button class="md:hidden text-white">
+                <span class="material-symbols-outlined text-2xl font-light">menu</span>
+            </button>
+        </div>
+    </header>
+    <main>
+        <!-- Hero Section -->
+        <section class="relative w-full h-screen min-h-[800px] flex items-center overflow-hidden bg-background">
+            <div class="absolute right-0 top-0 w-[80%] md:w-[60%] h-full bg-cover bg-center grayscale opacity-40 mix-blend-luminosity"
+                style="background-image: url('https://lh3.googleusercontent.com/aida/AP1WRLsxdGQXvguN966RY7B313VA6Ux3vqRYBmOabPPNfpTfv7cTjogpRYcEJyWUI8i2p27NZcHUfUy4-haqhyKUQodBQmGndeyiqOFhmgluJk0mc9IgDTSyeLo61ileRQa4gcg85UkVO4WG0p_PGyslQ-Cezlrw4FyZtokMx6KXsRaX-JJ557MqqX7SiMXRaY3CMaahw2kOX2ZXJ8sGw6xr_PWGkxc2yF1QpvsP5LWklhpKLhfogDILjpIuE1k'); mask-image: linear-gradient(to left, black, transparent);">
+            </div>
+            <div class="absolute inset-0 bg-gradient-to-r from-background via-background/80 to-transparent z-10"></div>
+            <div class="relative z-20 px-6 md:px-24 w-full flex flex-col justify-center mt-20">
+                <h1 class="font-display-lg text-patisserie-gold bleed-text italic mb-4 opacity-90 drop-shadow-2xl">
+                    1978'den
+                </h1>
+                <h1 class="font-display-lg text-white bleed-text ml-12 md:ml-32 mb-12 mix-blend-difference">
+                    Beri.
+                </h1>
+                <div class="max-w-xl md:ml-32 relative">
+                    <div class="absolute -left-8 top-0 w-px h-full bg-patisserie-gold/30"></div>
+                    <h2 class="text-2xl md:text-4xl font-display-lg text-white mb-6 font-light italic">Tutkuyla Yoğrulan
+                        Tatlar.</h2>
+                    <p
+                        class="text-sm md:text-base font-body-lg text-white/60 mb-12 font-light leading-relaxed tracking-wide">
+                        Gerçek lezzetin sırrı, detaylara gösterilen özende gizlidir. Yarım asırdır Avanos'ta her güne
+                        aynı heyecanla başlıyor; ince bir işçilikle hazırladığımız ürünlerle size sadece bir tat değil,
+                        özel bir deneyim sunuyoruz.
+                    </p>
+                    <a class="inline-flex items-center gap-4 text-xs font-label-lg uppercase tracking-[0.2em] text-white hover:text-patisserie-gold group transition-all duration-500"
+                        href="/menu">
+                        Menüyü İncele
+                        <span
+                            class="w-12 h-px bg-white/50 group-hover:bg-patisserie-gold transition-all duration-500 group-hover:w-20"></span>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <!-- Daily Bakery Menu Feature (Asymmetrical) -->
+        <section class="py-32 px-6 md:px-24 max-w-[1600px] mx-auto relative">
+            <div class="flex flex-col md:flex-row items-center md:items-end gap-12 md:gap-0 relative">
+                <div class="w-full md:w-5/12 z-20 relative">
+                    <span
+                        class="text-[8rem] md:text-[12rem] font-display-lg text-white/5 absolute -top-32 -left-12 select-none pointer-events-none">01</span>
+                    <h2 class="text-4xl md:text-6xl font-display-lg text-white mb-8 tracking-tighter">Günlük
+                        Fırın<br><span class="text-patisserie-gold italic">Menümüz</span></h2>
+                    <p class="text-sm md:text-base font-body-md text-white/50 mb-12 leading-relaxed max-w-sm">
+                        Avanos fırınımızdan her sabah taze çıkan artizan ekmekler, sıcak kruvasanlar ve günlük
+                        hazırlanan butik tatlı seçkimizi keşfedin.
+                    </p>
+                    <a class="text-xs font-label-lg uppercase tracking-[0.2em] text-patisserie-gold hover:text-white transition-colors duration-500"
+                        href="/menu">Tüm Menüyü Gör</a>
+                </div>
+                <div class="w-full md:w-8/12 md:-ml-24 z-10">
+                    <div
+                        class="aspect-[4/3] w-full overflow-hidden filter grayscale hover:grayscale-0 transition-all duration-1000">
+                        <div class="w-full h-full bg-cover bg-center scale-105 hover:scale-100 transition-transform duration-1000"
+                            style="background-image: url('https://lh3.googleusercontent.com/aida/AP1WRLtsps2OS8NtfVywH0kTfsrOzZO01GDa2EADJcvNaF62wgYzn_wWY8iIiKNgE8kdJtQxuWGlILfuuOVVg_i4HA92PoCh0P1Nb1hlodndnSKfW9hv8-2wMgF-TdIuT0cuaTLc0V6Y41LHU6_kmZqwBSbiK3vDYdRZrFxhtlP39wBzylkVlE2tmraa6vCQ-GVkkaB3t91W_DH1CStl7d1LuZNyVqidWcOQ8mVSGOi-PAcRBqVu0kn4UuNKwYw');">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Product Categories (Gallery Exhibition) -->
+        <section class="py-32 bg-[#0a0a0a] relative border-y border-white/5">
+            <div class="px-6 md:px-12 max-w-[1800px] mx-auto">
+                <div class="flex flex-col md:flex-row justify-between items-end mb-24 gap-8">
+                    <div>
+                        <h2 class="text-5xl md:text-7xl font-display-lg text-white mb-4 tracking-tighter">Koleksiyon.
+                        </h2>
+                        <p class="text-sm font-body-md text-white/40 uppercase tracking-[0.2em]">Özenle seçilmiş
+                            malzemeler, ustalıkla hazırlanan lezzetler.</p>
+                    </div>
+                    <a class="text-xs font-label-lg uppercase tracking-[0.2em] text-white/50 hover:text-patisserie-gold transition-colors duration-500 border-b border-white/10 pb-1"
+                        href="/products">Tüm Koleksiyon</a>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-12 gap-6 md:gap-12">
+                    <!-- Cakes (Large, offset) -->
+                    <div class="col-span-1 md:col-span-7 relative group">
+                        <a class="block overflow-hidden aspect-[16/9] filter grayscale hover:grayscale-0 transition-all duration-1000"
+                            href="/product/cakes">
+                            <div class="w-full h-full bg-cover bg-center scale-105 group-hover:scale-100 transition-transform duration-1000"
+                                style="background-image: url('https://lh3.googleusercontent.com/aida/AP1WRLu-6fi6zAxWCkSLehFNIMnq-hJPHRZTf2yc0_MeuftMjE5L-my8pqruHf9kBEu1utW-ACYbbV8Vohrk0g22WBo7nxBL7e6pgW74ixz0EGLe6x-tyzhcR42aYzoZugjRfoKBHmVFLhN10tvvQcdKWEnZkre88faiJJsKS1tVdW9ZXXXXKF1jQud7nio5LTBrkXZrRzNhUK2hQ4nFMSiYnX-S3s5Xk_ZjNnMqG4w9mGQ3vLxcfBWOcsnwenw');">
+                            </div>
+                        </a>
+                        <div class="mt-6 flex justify-between items-start">
+                            <h3
+                                class="text-3xl font-display-lg text-white group-hover:text-patisserie-gold transition-colors italic">
+                                Tasarım Pastalar</h3>
+                            <span class="text-xs text-white/30 tracking-widest">01</span>
+                        </div>
+                        <p class="text-sm text-white/40 mt-4 max-w-sm font-light">Tüm özel davetleriniz ve
+                            kutlamalarınız için, ustalarımız tarafından her detayı tek tek işlenerek hayata geçirilen
+                            özel tasarım pastalar.</p>
+                    </div>
+                    <!-- Pastries (Vertical, staggered down) -->
+                    <div class="col-span-1 md:col-span-5 relative group md:mt-48">
+                        <a class="block overflow-hidden aspect-[3/4] filter grayscale hover:grayscale-0 transition-all duration-1000"
+                            href="/product/pastries">
+                            <div class="w-full h-full bg-cover bg-center scale-105 group-hover:scale-100 transition-transform duration-1000"
+                                style="background-image: url('https://lh3.googleusercontent.com/aida/AP1WRLtsps2OS8NtfVywH0kTfsrOzZO01GDa2EADJcvNaF62wgYzn_wWY8iIiKNgE8kdJtQxuWGlILfuuOVVg_i4HA92PoCh0P1Nb1hlodndnSKfW9hv8-2wMgF-TdIuT0cuaTLc0V6Y41LHU6_kmZqwBSbiK3vDYdRZrFxhtlP39wBzylkVlE2tmraa6vCQ-GVkkaB3t91W_DH1CStl7d1LuZNyVqidWcOQ8mVSGOi-PAcRBqVu0kn4UuNKwYw');">
+                            </div>
+                        </a>
+                        <div class="mt-6 flex justify-between items-start">
+                            <h3
+                                class="text-3xl font-display-lg text-white group-hover:text-patisserie-gold transition-colors italic">
+                                Geleneksel Hamur İşleri</h3>
+                            <span class="text-xs text-white/30 tracking-widest">02</span>
+                        </div>
+                    </div>
+                    <!-- Desserts (Square, centered) -->
+                    <div class="col-span-1 md:col-span-6 md:col-start-4 relative group mt-24">
+                        <a class="block overflow-hidden aspect-square filter grayscale hover:grayscale-0 transition-all duration-1000"
+                            href="/product/desserts">
+                            <div class="w-full h-full bg-cover bg-center scale-105 group-hover:scale-100 transition-transform duration-1000"
+                                style="background-image: url('https://lh3.googleusercontent.com/aida/AP1WRLvxrJgRCw90Uh_1DxSWLT-tSleN0TnL-YjkKUCRKcXVimpm6Inmnflb7-yNfeWtFI7LpPN30vhQMZcReTJpfsdYxvO7I0jdW38F_-tpXde2hd5WJwZAt7pIxb16J86-FtKWcTJ1J4UGYhn6JcXK5-md9qAXnYVdodB4MawwI0nzQN31_ymuyD8uHPJn4EUuGqpkVWosMZwoPbtAkoI7pSwcFQNd0hQPwQn4xM5Pk-6uaLFfIxZAMccpPGs');">
+                            </div>
+                        </a>
+                        <div class="mt-6 flex justify-between items-start">
+                            <h3
+                                class="text-3xl font-display-lg text-white group-hover:text-patisserie-gold transition-colors italic">
+                                Sütlü Tatlılar</h3>
+                            <span class="text-xs text-white/30 tracking-widest">03</span>
+                        </div>
+                    </div>
+                    <!-- Gifts (Landscape, bleeding edge) -->
+                    <div class="col-span-1 md:col-span-8 md:col-start-1 relative group mt-24">
+                        <a class="block overflow-hidden aspect-[21/9] filter grayscale hover:grayscale-0 transition-all duration-1000"
+                            href="/product/gifts">
+                            <div class="w-full h-full bg-cover bg-center scale-105 group-hover:scale-100 transition-transform duration-1000"
+                                style="background-image: url('https://lh3.googleusercontent.com/aida/AP1WRLsseHbwMq063Lznw_U6Iz6Tk0l3MrQUJsmi0Pjsl9SiwTzuPtUo76zuApyqrW8UxLyyI1ZZ4MvrXbs56uxfHZrjGR6_eoqbZ72iJMujX4cJXGzix72hzZMqdC76TmPiiMbAzb-_hp_UYlqSZj9eOUzKcdeOSB8Lc1HebolkRGJOft1E6IzaeO9LXSvxxqYwfiKQV6vfNO-KTdCjbnSBo4G67fGw1A5TpEWYCFbjHpjfvAs7v0EImr6JKSA');">
+                            </div>
+                        </a>
+                        <div class="mt-6 flex justify-between items-start">
+                            <h3
+                                class="text-3xl font-display-lg text-white group-hover:text-patisserie-gold transition-colors italic">
+                                Butik Hediyelikler</h3>
+                            <span class="text-xs text-white/30 tracking-widest">04</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Testimonials (Minimalist Dark) -->
+        <section class="py-32 px-6 md:px-24 max-w-[1600px] mx-auto">
+            <div class="flex flex-col md:flex-row gap-24">
+                <div class="md:w-1/3">
+                    <span
+                        class="text-xs font-label-md uppercase tracking-[0.3em] text-patisserie-gold block mb-4">Google
+                        Yorumları</span>
+                    <h2 class="text-5xl font-display-lg text-white tracking-tighter">Deneyimler.</h2>
+                </div>
+                <div class="md:w-2/3 grid gap-16">
+                    <div class="border-l border-white/10 pl-8 relative">
+                        <span class="absolute -top-4 -left-4 text-6xl text-white/5 font-display-lg">"</span>
+                        <p class="text-xl md:text-2xl font-display-lg text-white/80 italic mb-6 leading-relaxed">
+                            "Avanos'ta tatlı krizlerimizin tek adresi. Özellikle pastaları harika, personeli de çok
+                            güler yüzlü."</p>
+                        <span class="text-xs font-label-lg tracking-[0.2em] text-white/40 uppercase">Ahmet Y.</span>
+                    </div>
+                    <div class="border-l border-white/10 pl-8 relative md:ml-12">
+                        <span class="absolute -top-4 -left-4 text-6xl text-white/5 font-display-lg">"</span>
+                        <p class="text-xl md:text-2xl font-display-lg text-white/80 italic mb-6 leading-relaxed">"Uzun
+                            yıllardır kalitesini hiç bozmayan mekan. Sütlü tatlıları gerçekten muazzam. Kesinlikle
+                            tavsiye ederim."</p>
+                        <span class="text-xs font-label-lg tracking-[0.2em] text-white/40 uppercase">Zeynep K.</span>
+                    </div>
+                    <div class="border-l border-white/10 pl-8 relative md:ml-24">
+                        <span class="absolute -top-4 -left-4 text-6xl text-white/5 font-display-lg">"</span>
+                        <p class="text-xl md:text-2xl font-display-lg text-white/80 italic mb-6 leading-relaxed">
+                            "Nişanımız için özel tasarım pasta yaptırdık, hem görseli hem de lezzeti efsaneydi.
+                            Emeğinize sağlık."</p>
+                        <span class="text-xs font-label-lg tracking-[0.2em] text-white/40 uppercase">Mehmet D.</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Instagram Gallery (Staggered Dark Mode) -->
+        <section class="py-32 bg-[#080808] border-y border-white/5">
+            <div class="px-6 md:px-12 max-w-[1800px] mx-auto">
+                <div class="flex flex-col md:flex-row justify-between items-end mb-24 gap-8">
+                    <div>
+                        <h2 class="text-4xl md:text-5xl font-display-lg text-white mb-4 tracking-tighter">
+                            Kadrajımızdan<br><span class="text-patisserie-gold italic">Lezzetler</span></h2>
+                        <p class="text-sm font-body-md text-white/40">@aytemurpastanesi</p>
+                    </div>
+                    <a class="text-xs font-label-lg uppercase tracking-[0.2em] text-white hover:text-patisserie-gold transition-colors inline-flex items-center gap-2"
+                        href="https://instagram.com">Takip Edin <span
+                            class="material-symbols-outlined text-sm">arrow_forward</span></a>
+                </div>
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-8 items-center">
+                    <div
+                        class="aspect-[3/4] overflow-hidden filter grayscale hover:grayscale-0 transition-all duration-700 md:-translate-y-12">
+                        <img alt=""
+                            class="w-full h-full object-cover scale-105 hover:scale-100 transition-transform duration-1000"
+                            src="https://lh3.googleusercontent.com/aida/AP1WRLtDq6PIx0NfCHtygrB4EKWRsyjXfDNrepgy8guM-GfeF4bWZPsuhVASTxFwsjeejl3VNFXVXW-13jhCE4QOwmJ2An9rr7ec1hGJVAuD6R8XEavcg72EXMbs-GCrEIklukKVwGsJOLXXRHKBMQBMkiv65Yl_MRRYVLFfMvtKxDA-AzI9IeputH2FomiUVLHZ_yg7lh-mn8JvK54D0as5AruGNryR2M0o9j-7HcBnWlbk31iM5Z_N4-2eIA">
+                    </div>
+                    <div
+                        class="aspect-square overflow-hidden filter grayscale hover:grayscale-0 transition-all duration-700 md:translate-y-12">
+                        <img alt=""
+                            class="w-full h-full object-cover scale-105 hover:scale-100 transition-transform duration-1000"
+                            src="https://lh3.googleusercontent.com/aida/AP1WRLtsz8fu1MTZPAsXfctIsGT26YobUUAPeczEalXnjpe_bxA38MdIqpFCYqIEgjC1AmM-zXBUyfVgYhX0fG4t8omzAVPOOUqMqEqf687DpmC-Nj29bWML7FKVqC6qjJBwG38pb2Kt_PBIhzchHwXBlK3rPz0Av6k08bF8BKAlyBMCk8JkK3Ynl8wSO1gaIzClCWFFwDhl1QrupV6W5pPYXLo5_2Ye6VS_kbOTsg_tbGns0AL4a4K4i_zrJuc">
+                    </div>
+                    <div
+                        class="aspect-[4/5] overflow-hidden filter grayscale hover:grayscale-0 transition-all duration-700 md:-translate-y-8">
+                        <img alt=""
+                            class="w-full h-full object-cover scale-105 hover:scale-100 transition-transform duration-1000"
+                            src="https://lh3.googleusercontent.com/aida/AP1WRLs4QQD-xo0mHnVIWWQ7VOEmrxBBF5qI4AJqeuMjYmP_Xz4RZ9J1qVgR2kihw6YQPzk__WKV1iGTZRYYhLHZN71dQESxL7XjL8qAVQMxJilOBIcvGuwZH5pqIJa6U_eT_AQNYU4ALZM9IpA11waY-CfzS4ZWZL0a7GoefS8ZLxS5xDJytt1OFdVuCHF5OwnDgEooVIwUA_09BYLgMh2KCGelA3NlBAdsFuq0iDnygTDfBetcaeKvFwLvDYs">
+                    </div>
+                    <div
+                        class="aspect-square overflow-hidden filter grayscale hover:grayscale-0 transition-all duration-700 md:translate-y-16">
+                        <img alt=""
+                            class="w-full h-full object-cover scale-105 hover:scale-100 transition-transform duration-1000"
+                            src="https://lh3.googleusercontent.com/aida/AP1WRLtM3IdmtNQaDRL4fyzhhNGvu-oOIOASSzwiHVd0THJAkcbsv8UzcwAYW_1TRkeif9HOXipmdpcqC3gusIJwj5YJG_uAg3gXlROAuPWNDrROCJxOIQUiN9zkCVOitNe2kg3keH6s0Oa4L1nKihKeYX1a4RX_va1aNWuiQ3Ohz2iBDD_hxDi4LZ2z7lVZx_0X_nTVyVAxsVaVrTeII6Vv4PZV3p281I6AMfeQu3zuZ9honpRC79KtJPWrOlc">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Location & Contact (Monochrome Map) -->
+        <section class="py-32 px-6 md:px-12 max-w-[1800px] mx-auto">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-0 border border-white/5 bg-[#0a0a0a]">
+                <div class="p-12 md:p-24 flex flex-col justify-center">
+                    <h2 class="text-6xl font-display-lg text-white mb-16 tracking-tighter italic">İletişim.</h2>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-12">
+                        <div>
+                            <h4 class="text-xs font-label-lg text-white/30 mb-4 uppercase tracking-[0.3em]">Konum</h4>
+                            <p class="text-sm font-body-md text-white/80 leading-relaxed">İnönü Caddesi, No:
+                                16<br>Avanos / Kapadokya</p>
+                        </div>
+                        <div>
+                            <h4 class="text-xs font-label-lg text-white/30 mb-4 uppercase tracking-[0.3em]">İletişim
+                            </h4>
+                            <a class="block text-sm font-body-md text-white/80 hover:text-patisserie-gold mb-2 transition-colors"
+                                href="tel:+903845110000">+90 (384) 511 XX XX</a>
+                            <a class="block text-sm font-body-md text-white/80 hover:text-patisserie-gold transition-colors"
+                                href="mailto:info@aytemurpastanesi.com">info@aytemurpastanesi.com</a>
+                        </div>
+                        <div class="sm:col-span-2 mt-4 border-t border-white/5 pt-12">
+                            <h4 class="text-xs font-label-lg text-white/30 mb-6 uppercase tracking-[0.3em]">Çalışma
+                                Saatleri</h4>
+                            <ul class="text-sm font-body-md text-white/80 space-y-4 max-w-sm">
+                                <li class="flex justify-between border-b border-white/5 pb-2"><span class="">Hafta
+                                        İçi</span> <span class="font-light text-patisserie-gold">07:00 - 22:00</span>
+                                </li>
+                                <li class="flex justify-between border-b border-white/5 pb-2"><span
+                                        class="">Cumartesi</span> <span class="font-light text-patisserie-gold">07:00 -
+                                        23:00</span></li>
+                                <li class="flex justify-between border-b border-white/5 pb-2"><span
+                                        class="">Pazar</span> <span class="font-light text-patisserie-gold">08:00 -
+                                        23:00</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="h-[500px] md:h-auto w-full bg-[#050505] relative filter" data-location="Avanos, Kapadokya">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3112.9616610421203!2d34.8467!3d38.7186892!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x152a6125ac5f7083%3A0x6b92e0a8a016da71!2sAYTEMUR%20PASTANES%C4%B0!5e0!3m2!1str!2str!4v1781714226575!5m2!1str!2str"
+                        width="100%" height="100%" style="border: 0px; min-height: 500px;" allowfullscreen=""
+                        loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+            </div>
+        </section>
+    </main>
+    <!-- Footer Component -->
+    <footer class="w-full py-24 bg-[#020202] border-t border-white/5 relative overflow-hidden">
+        <span
+            class="text-[15vw] font-display-lg text-white/5 absolute bottom-0 left-0 leading-none select-none pointer-events-none whitespace-nowrap">AYTEMUR</span>
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-12 px-6 md:px-12 max-w-[1800px] mx-auto relative z-10">
+            <div class="col-span-1 md:col-span-2">
+                <h2 class="text-3xl font-display-lg text-white mb-6 italic">Aytemur.</h2>
+                <p class="text-xs font-body-sm text-white/40 uppercase tracking-widest max-w-sm leading-relaxed">© 1978
+                    Aytemur Pastanesi.<br>Flavor Heritage from Avanos.</p>
+            </div>
+            <div class="flex flex-col gap-4">
+                <h4 class="text-xs font-label-lg text-white/30 mb-2 uppercase tracking-[0.3em]">Keşfet</h4>
+                <a class="text-sm font-body-sm text-white/60 hover:text-patisserie-gold transition-colors"
+                    href="/about">Hakkımızda</a>
+                <a class="text-sm font-body-sm text-white/60 hover:text-patisserie-gold transition-colors"
+                    href="/products">Koleksiyon</a>
+                <a class="text-sm font-body-sm text-white/60 hover:text-patisserie-gold transition-colors"
+                    href="/menu">Menü</a>
+            </div>
+            <div class="flex flex-col gap-4">
+                <h4 class="text-xs font-label-lg text-white/30 mb-2 uppercase tracking-[0.3em]">Yasal</h4>
+                <a class="text-sm font-body-sm text-white/60 hover:text-patisserie-gold transition-colors"
+                    href="/terms">Kullanım Koşulları</a>
+                <a class="text-sm font-body-sm text-white/60 hover:text-patisserie-gold transition-colors"
+                    href="/privacy">Gizlilik Politikası</a>
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>
