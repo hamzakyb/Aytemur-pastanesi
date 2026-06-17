@@ -118,3 +118,16 @@ body {
   line-height: 0.8;
   letter-spacing: -0.05em;
 }
+
+@keyframes marquee-vertical {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-50%); }
+}
+
+.marquee-vertical {
+  animation: marquee-vertical 25s linear infinite;
+}
+
+.marquee-vertical:hover {
+  animation-play-state: paused;
+}
