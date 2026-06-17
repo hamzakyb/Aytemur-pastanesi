@@ -348,49 +348,41 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Testimonials */}
-        <section className="py-40 w-full bg-[#f3f3f4] border-t border-gray-100" id="testimonials">
-          <div className="max-w-7xl mx-auto px-6 md:px-12 mb-24">
-            <ScrollReveal className="text-center flex flex-col items-center">
-              <div className="flex items-center gap-2 mb-4 justify-center">
-                <div className="flex bg-white px-4 py-2 rounded-full shadow-sm items-center gap-2 border border-gray-100">
-                  <svg viewBox="0 0 24 24" width="20" height="20" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/>
-                    <path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/>
-                    <path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"/>
-                    <path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/>
-                  </svg>
-                  <span className="font-sans text-[12px] font-bold text-gray-700">Google Yorumları</span>
-                </div>
-              </div>
-              <h2 className="font-display text-4xl md:text-6xl text-black italic mb-6">Müşteri Deneyimleri</h2>
-              <div className="w-12 h-px bg-black mx-auto"></div>
-            </ScrollReveal>
-          </div>
-            
-          <div className="relative w-full overflow-hidden">
-              <div className="flex w-max animate-none hover:[animation-play-state:paused] slider-marquee">
-                {[...googleReviews, ...googleReviews, ...googleReviews, ...googleReviews].map((review, idx) => (
-                  <div 
-                    key={idx}
-                    className="flex flex-col w-[300px] md:w-[400px] mx-4 shrink-0 bg-white p-8 border border-gray-100 shadow-[0_4px_20px_-10px_rgba(0,0,0,0.05)] cursor-pointer hover:shadow-[0_8px_30px_-10px_rgba(0,0,0,0.1)] transition-shadow duration-500"
+        {/* Testimonials (Staggered Premium Minimalist Layout) */}
+        <section className="py-40 px-6 md:px-24 max-w-[1600px] mx-auto" id="testimonials">
+          <div className="flex flex-col md:flex-row gap-16 md:gap-24">
+            <div className="md:w-1/3">
+              <ScrollReveal yOffset={20}>
+                <span className="text-xs font-sans uppercase tracking-[0.3em] text-[#735c00] block mb-4">
+                  {t("testimonials.label", "Google Yorumları")}
+                </span>
+                <h2 className="text-5xl font-display text-gray-900 tracking-tighter italic">
+                  {t("testimonials.title", "Deneyimler.")}
+                </h2>
+              </ScrollReveal>
+            </div>
+            <div className="md:w-2/3 grid gap-16 md:gap-20">
+              {googleReviews.slice(0, 3).map((review, idx) => {
+                const mlClasses = ["", "md:ml-12", "md:ml-24"];
+                const mlClass = mlClasses[idx % 3];
+                return (
+                  <ScrollReveal 
+                    key={idx} 
+                    delay={idx * 0.15} 
+                    className={`border-l border-black/10 pl-8 relative ${mlClass}`}
                   >
-                    <div className="flex gap-1 mb-4">
-                      {[...Array(5)].map((_, i) => (
-                        <Star key={i} className="w-4 h-4 fill-[#FBBC05] text-[#FBBC05]" />
-                      ))}
-                    </div>
-                    <p className="font-sans text-[15px] font-light text-gray-500 italic leading-relaxed mb-6 flex-1">
+                    <span className="absolute -top-6 -left-2 text-[5rem] text-black/5 font-display select-none pointer-events-none">"</span>
+                    <p className="text-lg md:text-xl font-display text-gray-800 italic mb-6 leading-relaxed">
                       "{review.text}"
                     </p>
-                    <h4 className="font-sans text-[11px] font-bold uppercase tracking-widest text-black flex items-center gap-2">
-                      <div className="w-6 h-6 rounded-full bg-gray-100 flex items-center justify-center text-gray-500 font-sans text-[10px]">{review.author.charAt(0)}</div>
+                    <span className="text-xs font-sans tracking-[0.2em] text-gray-400 uppercase font-medium">
                       {review.author}
-                    </h4>
-                  </div>
-                ))}
-              </div>
+                    </span>
+                  </ScrollReveal>
+                );
+              })}
             </div>
+          </div>
         </section>
 
         {/* Instagram Feed */}
