@@ -348,7 +348,7 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Testimonials (Infinite Vertical Marquee Layout) */}
+        {/* Testimonials (Staggered Infinite Vertical Marquee Layout) */}
         <section className="py-40 px-6 md:px-24 max-w-[1600px] mx-auto" id="testimonials">
           <div className="flex flex-col md:flex-row gap-16 md:gap-24 items-center">
             {/* Left Column: Heading */}
@@ -357,37 +357,38 @@ export default function Home() {
                 <span className="text-xs font-sans uppercase tracking-[0.3em] text-[#735c00] block mb-4">
                   {t("testimonials.label", "Google Yorumları")}
                 </span>
-                <h2 className="text-5xl font-display text-gray-900 tracking-tighter italic mb-6">
+                <h2 className="text-5xl font-display text-gray-900 tracking-tighter italic">
                   {t("testimonials.title", "Deneyimler.")}
                 </h2>
-                <p className="font-sans text-sm text-gray-500 font-light leading-relaxed">
-                  {t("testimonials.desc", "Misafirlerimizin dilinden Aytemur Pastanesi deneyimi. Her bir yorum bizim için en büyük motivasyon kaynağıdır.")}
-                </p>
               </ScrollReveal>
             </div>
             
-            {/* Right Column: Infinite Vertical Scroll */}
+            {/* Right Column: Infinite Vertical Scroll with Staggered Minimalist Cards */}
             <div className="w-full md:w-2/3 relative h-[500px] overflow-hidden">
               {/* Fade Overlays */}
               <div className="absolute top-0 left-0 w-full h-16 bg-gradient-to-b from-white to-transparent z-20 pointer-events-none"></div>
               <div className="absolute bottom-0 left-0 w-full h-16 bg-gradient-to-t from-white to-transparent z-20 pointer-events-none"></div>
               
               {/* Scrolling Container */}
-              <div className="w-full h-full flex flex-col gap-6 marquee-vertical py-4">
-                {[...googleReviews, ...googleReviews, ...googleReviews].map((review, idx) => (
-                  <div 
-                    key={idx} 
-                    className="border-l-2 border-[#735c00]/20 hover:border-[#735c00] pl-8 py-6 relative bg-[#FAF7F2]/40 backdrop-blur-sm transition-all duration-300 group cursor-pointer"
-                  >
-                    <span className="absolute -top-4 -left-2 text-[4rem] text-black/5 font-display select-none pointer-events-none group-hover:text-[#735c00]/5 transition-colors">"</span>
-                    <p className="text-base md:text-lg font-display text-gray-800 italic mb-4 leading-relaxed">
-                      "{review.text}"
-                    </p>
-                    <span className="text-xs font-sans tracking-[0.2em] text-gray-400 uppercase font-medium">
-                      {review.author}
-                    </span>
-                  </div>
-                ))}
+              <div className="w-full h-full flex flex-col gap-12 marquee-vertical py-4">
+                {[...googleReviews, ...googleReviews, ...googleReviews].map((review, idx) => {
+                  const mlClasses = ["", "md:ml-12", "md:ml-24"];
+                  const mlClass = mlClasses[idx % 3];
+                  return (
+                    <div 
+                      key={idx} 
+                      className={`border-l border-black/10 pl-8 relative transition-colors duration-300 hover:border-[#735c00] group ${mlClass}`}
+                    >
+                      <span className="absolute -top-6 -left-2 text-[5rem] text-black/5 font-display select-none pointer-events-none group-hover:text-[#735c00]/10 transition-colors">"</span>
+                      <p className="text-lg md:text-xl font-display text-gray-800 italic mb-6 leading-relaxed">
+                        "{review.text}"
+                      </p>
+                      <span className="text-xs font-sans tracking-[0.2em] text-gray-400 uppercase font-medium">
+                        {review.author}
+                      </span>
+                    </div>
+                  );
+                })}
               </div>
             </div>
           </div>
