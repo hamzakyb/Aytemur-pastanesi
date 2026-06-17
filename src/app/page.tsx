@@ -250,42 +250,42 @@ export default function Home() {
 
 
       <main className="flex-1">
-        {/* Obsidian Premium Hero Section */}
-        <section className="relative w-full h-screen min-h-[800px] flex items-center overflow-hidden bg-[#050505]" id="hero">
+        {/* Premium Light Hero Section */}
+        <section className="relative w-full h-screen min-h-[800px] flex items-center overflow-hidden bg-white" id="hero">
           <div 
-            className="absolute right-0 top-0 w-[80%] md:w-[60%] h-full bg-cover bg-center grayscale opacity-40 mix-blend-luminosity"
+            className="absolute right-0 top-0 w-[80%] md:w-[60%] h-full bg-cover bg-center grayscale opacity-25"
             style={{ 
               backgroundImage: "url('https://lh3.googleusercontent.com/aida/AP1WRLsxdGQXvguN966RY7B313VA6Ux3vqRYBmOabPPNfpTfv7cTjogpRYcEJyWUI8i2p27NZcHUfUy4-haqhyKUQodBQmGndeyiqOFhmgluJk0mc9IgDTSyeLo61ileRQa4gcg85UkVO4WG0p_PGyslQ-Cezlrw4FyZtokMx6KXsRaX-JJ557MqqX7SiMXRaY3CMaahw2kOX2ZXJ8sGw6xr_PWGkxc2yF1QpvsP5LWklhpKLhfogDILjpIuE1k')",
               WebkitMaskImage: "linear-gradient(to left, black, transparent)",
               maskImage: "linear-gradient(to left, black, transparent)"
             }}
           />
-          <div className="absolute inset-0 bg-gradient-to-r from-[#050505] via-[#050505]/80 to-transparent z-10"></div>
+          <div className="absolute inset-0 bg-gradient-to-r from-white via-white/80 to-transparent z-10"></div>
           <div className="relative z-20 px-6 md:px-24 w-full flex flex-col justify-center mt-20">
             <ScrollReveal yOffset={30}>
-              <h1 className="font-display text-[#fddd7c] bleed-text italic mb-4 opacity-90 drop-shadow-2xl">
+              <h1 className="font-display text-[#735c00] bleed-text italic mb-4 opacity-90 drop-shadow-sm">
                 1978'den
               </h1>
             </ScrollReveal>
             <ScrollReveal yOffset={30} delay={0.15}>
-              <h1 className="font-display text-white bleed-text ml-12 md:ml-32 mb-12 mix-blend-difference">
+              <h1 className="font-display text-gray-900 bleed-text ml-12 md:ml-32 mb-12">
                 Beri.
               </h1>
             </ScrollReveal>
             <ScrollReveal yOffset={30} delay={0.3} className="max-w-xl md:ml-32 relative">
-              <div className="absolute -left-8 top-0 w-px h-full bg-[#fddd7c]/30"></div>
-              <h2 className="text-2xl md:text-4xl font-display text-white mb-6 font-light italic">
+              <div className="absolute -left-8 top-0 w-px h-full bg-[#735c00]/30"></div>
+              <h2 className="text-2xl md:text-4xl font-display text-gray-900 mb-6 font-light italic">
                 {t("hero.titleBottom", "Tutkuyla Yoğrulan Tatlar.")}
               </h2>
-              <p className="font-sans text-sm md:text-base text-white/60 mb-12 font-light leading-relaxed tracking-wide">
+              <p className="font-sans text-sm md:text-base text-gray-600 mb-12 font-light leading-relaxed tracking-wide">
                 {t("hero.desc", "Gerçek lezzetin sırrı, detaylara gösterilen özende gizlidir. Yarım asırdır Avanos'ta her güne aynı heyecanla başlıyor; ince bir işçilikle hazırladığımız ürünlerle size sadece bir tat değil, özel bir deneyim sunuyoruz.")}
               </p>
               <Link 
-                className="inline-flex items-center gap-4 text-xs font-sans uppercase tracking-[0.2em] text-white hover:text-[#fddd7c] group transition-all duration-500"
+                className="inline-flex items-center gap-4 text-xs font-sans uppercase tracking-[0.2em] text-gray-900 hover:text-[#735c00] group transition-all duration-500"
                 href="/menu"
               >
                 {t("homeMenu.btn", "Menüyü İncele")}
-                <span className="w-12 h-px bg-white/50 group-hover:bg-[#fddd7c] transition-all duration-500 group-hover:w-20"></span>
+                <span className="w-12 h-px bg-black/30 group-hover:bg-[#735c00] transition-all duration-500 group-hover:w-20"></span>
               </Link>
             </ScrollReveal>
           </div>
