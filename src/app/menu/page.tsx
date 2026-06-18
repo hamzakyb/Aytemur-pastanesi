@@ -401,7 +401,7 @@ export default function Menu() {
               <div className="border-t border-black/5 pt-6 mt-auto">
                 <div className="flex items-center gap-2 text-[#735c00]">
                   <ChefHat className="w-4 h-4" />
-                  <span className="font-sans text-xs font-medium">Her sabah Avanos fırınımızda taze hazırlanır.</span>
+                  <span className="font-sans text-xs font-medium">{t("menuPage.fresh", "Her sabah Avanos fırınımızda taze hazırlanır.")}</span>
                 </div>
               </div>
             </div>
