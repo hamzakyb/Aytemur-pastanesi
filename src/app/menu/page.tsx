@@ -249,7 +249,7 @@ export default function Menu() {
       </div>
 
       {/* Menu List */}
-      <main className="flex-1 max-w-4xl w-full mx-auto px-4 py-8">
+      <main className="flex-1 max-w-6xl w-full mx-auto px-4 py-8">
         {filteredItems.length === 0 ? (
           <div className="text-center py-20 text-gray-500 font-sans text-sm">
             {t("menuPage.notFound", "Aradığınız kriterde ürün bulunamadı.")}
@@ -356,7 +356,7 @@ export default function Menu() {
       {/* Product Detail Modal */}
       {selectedItem && (
         <div className="fixed inset-0 bg-black/60 backdrop-blur-sm z-[200] flex items-center justify-center p-4 overflow-y-auto">
-          <div className="bg-white max-w-2xl w-full max-h-[90vh] md:max-h-none overflow-y-auto md:overflow-visible border border-black flex flex-col md:flex-row relative rounded-none shadow-xl">
+          <div className="bg-white max-w-xl md:max-w-4xl w-full max-h-[90vh] md:max-h-none overflow-y-auto md:overflow-visible border border-black flex flex-col md:flex-row relative rounded-none shadow-xl">
             <button
               onClick={() => setSelectedItem(null)}
               className="absolute top-4 right-4 z-10 bg-white/90 border border-black/10 p-1.5 hover:bg-black hover:text-white transition-all animate-fade-in"
