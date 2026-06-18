@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
-import { Search, ChevronLeft, QrCode, Info, X, Heart, Leaf, Clock, Sparkles, AlertCircle, ChefHat, Flame } from "lucide-react";
+import { Search, ChevronLeft, QrCode, Info, X, Heart, Leaf, Clock, Sparkles, AlertCircle, ChefHat, Flame, LayoutGrid, Croissant, Cake, Cookie, Coffee } from "lucide-react";
 import { QRCodeSVG } from "qrcode.react";
 import { useTranslation } from "react-i18next";
 import LanguageSwitcher from "@/components/LanguageSwitcher";
@@ -34,11 +34,11 @@ export default function Menu() {
   }, []);
 
   const categories = [
-    { key: "all", label: t("menuPage.categories.all", "Tümü") },
-    { key: "bakery", label: t("menuPage.categories.bakery", "Fırın") },
-    { key: "pastry", label: t("menuPage.categories.pastry", "Pastacılık") },
-    { key: "desserts", label: t("menuPage.categories.desserts", "Tatlılar") },
-    { key: "drinks", label: t("menuPage.categories.drinks", "İçecekler") },
+    { key: "all", label: t("menuPage.categories.all", "Tümü"), icon: LayoutGrid },
+    { key: "bakery", label: t("menuPage.categories.bakery", "Fırın"), icon: Croissant },
+    { key: "pastry", label: t("menuPage.categories.pastry", "Pastacılık"), icon: Cake },
+    { key: "desserts", label: t("menuPage.categories.desserts", "Tatlılar"), icon: Cookie },
+    { key: "drinks", label: t("menuPage.categories.drinks", "İçecekler"), icon: Coffee },
   ];
 
   const menuItems: MenuItem[] = [
@@ -218,19 +218,23 @@ export default function Menu() {
 
       {/* Category Tabs */}
       <div className="sticky top-[73px] z-40 bg-white/95 backdrop-blur-md border-b border-gray-100/60 overflow-x-auto hide-scrollbar py-3 px-4 flex gap-3 md:justify-center">
-        {categories.map((cat) => (
-          <button
-            key={cat.key}
-            onClick={() => setActiveCategory(cat.key)}
-            className={`flex-shrink-0 px-5 py-2 text-[11px] font-semibold tracking-wider uppercase transition-all duration-300 ${
-              activeCategory === cat.key
-                ? "bg-black text-white"
-                : "bg-white text-gray-600 border border-gray-200/50 hover:bg-gray-50"
-            }`}
-          >
-            {cat.label}
-          </button>
-        ))}
+        {categories.map((cat) => {
+          const Icon = cat.icon;
+          return (
+            <button
+              key={cat.key}
+              onClick={() => setActiveCategory(cat.key)}
+              className={`flex-shrink-0 px-5 py-2 text-[11px] font-semibold tracking-wider uppercase transition-all duration-300 flex items-center gap-1.5 ${
+                activeCategory === cat.key
+                  ? "bg-black text-white"
+                  : "bg-white text-gray-600 border border-gray-200/50 hover:bg-gray-50"
+              }`}
+            >
+              <Icon className="w-3.5 h-3.5" />
+              {cat.label}
+            </button>
+          );
+        })}
       </div>
 
       {/* Menu List */}
