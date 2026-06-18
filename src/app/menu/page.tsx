@@ -378,9 +378,6 @@ export default function Menu() {
                 <span className="font-sans text-[10px] uppercase tracking-widest text-[#735c00] font-semibold">
                   {selectedItem.category}
                 </span>
-                <h1 className="font-display text-4xl md:text-5xl text-black italic text-center mb-8">
-                  {t("nav.digitalMenu", "Dijital Menü")}
-                </h1>
                 <h3 className="font-display text-3xl italic text-black mt-2 mb-4 leading-tight">
                   {selectedItem.name}
                 </h3>
