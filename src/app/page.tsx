@@ -35,6 +35,22 @@ export default function Home() {
     {
       q: t("faq.q4", "Çalışma saatleriniz nedir ve haftanın her günü açık mısınız?"),
       a: t("faq.a4", "Haftanın her günü sabah 07:00 ile gece 23:00 saatleri arasında Avanos'taki pastanemizde sizleri ağırlamaktan mutluluk duyuyoruz.")
+    },
+    {
+      q: t("faq.q5", "Ürünleriniz günlük mü üretiliyor?"),
+      a: t("faq.a5", "Evet, tezgahımızda yer alan tüm fırın ve pastacılık ürünlerimiz her sabah kendi imalathanemizde ustalarımız tarafından taze olarak hazırlanır. Bayat veya dondurulmuş ürün satışı yapmıyoruz.")
+    },
+    {
+      q: t("faq.q6", "Toplu organizasyonlar veya catering hizmeti sunuyor musunuz?"),
+      a: t("faq.a6", "Nişan, kına, toplantı veya özel kutlamalarınız için toplu tatlı/tuzlu ikramlık tepsileri ve özel pastalar hazırlıyoruz. Kişi sayısı ve menü planlaması için bizimle en az bir hafta önceden görüşebilirsiniz.")
+    },
+    {
+      q: t("faq.q7", "Kullandığınız malzemelerin kalite standartları nelerdir?"),
+      a: t("faq.a7", "Ürünlerimizde her zaman en üst sınıf malzemeleri tercih ediyoruz. Gerçek Fransız tereyağı, hakiki Belçika çikolatası ve Avanos'un yerel üreticilerinden temin ettiğimiz taze mevsim meyveleriyle üretim yapıyoruz. Yapay koruyucu veya kimyasal katkı maddesi kullanmıyoruz.")
+    },
+    {
+      q: t("faq.q8", "Telefon veya internet üzerinden sipariş verebiliyor muyuz?"),
+      a: t("faq.a8", "Web sitemizdeki dijital menüyü inceledikten sonra, sipariş hattımızı arayarak veya WhatsApp numaramız üzerinden bizimle iletişime geçerek siparişinizi hızlıca oluşturabilirsiniz.")
     }
   ];
 
@@ -480,7 +496,7 @@ export default function Home() {
                     </button>
                     <div 
                       className={`overflow-hidden transition-all duration-300 ease-in-out ${
-                        isOpen ? "max-h-40 opacity-100 mt-2" : "max-h-0 opacity-0"
+                        isOpen ? "max-h-60 opacity-100 mt-2" : "max-h-0 opacity-0"
                       }`}
                     >
                       <p className="font-sans text-[14px] font-light text-gray-500 leading-relaxed pb-4">
