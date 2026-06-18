@@ -399,24 +399,24 @@ export default function Home() {
               </ScrollReveal>
             </div>
             
-            {/* Right Column: Infinite Scroll/Slider with Staggered Minimalist Cards */}
-            <div className="w-full md:w-2/3 relative h-[320px] md:h-[500px] overflow-hidden">
+            {/* Right Column: Infinite Vertical Scroll with Staggered Minimalist Cards */}
+            <div className="w-full md:w-2/3 relative h-[500px] overflow-hidden">
               {/* Fade Overlays */}
-              <div className="hidden md:block absolute top-0 left-0 w-full h-16 bg-gradient-to-b from-white to-transparent z-20 pointer-events-none"></div>
-              <div className="hidden md:block absolute bottom-0 left-0 w-full h-16 bg-gradient-to-t from-white to-transparent z-20 pointer-events-none"></div>
+              <div className="absolute top-0 left-0 w-full h-16 bg-gradient-to-b from-white to-transparent z-20 pointer-events-none"></div>
+              <div className="absolute bottom-0 left-0 w-full h-16 bg-gradient-to-t from-white to-transparent z-20 pointer-events-none"></div>
               
               {/* Scrolling Container */}
-              <div className="w-full h-full flex flex-row md:flex-col gap-8 md:gap-12 overflow-x-auto md:overflow-hidden snap-x snap-mandatory hide-scrollbar md:marquee-vertical py-4">
+              <div className="w-full h-full flex flex-col gap-12 marquee-vertical py-4">
                 {[...googleReviews, ...googleReviews, ...googleReviews].map((review, idx) => {
                   const mlClasses = ["", "md:ml-12", "md:ml-24"];
                   const mlClass = mlClasses[idx % 3];
                   return (
                     <div 
                       key={idx} 
-                      className={`snap-center flex-shrink-0 w-[85vw] sm:w-[60vw] md:w-auto border-l border-black/10 pl-8 relative transition-colors duration-300 hover:border-[#735c00] group ${mlClass}`}
+                      className={`border-l border-black/10 pl-8 relative transition-colors duration-300 hover:border-[#735c00] group ${mlClass}`}
                     >
                       <span className="absolute -top-6 -left-2 text-[5rem] text-black/5 font-display select-none pointer-events-none group-hover:text-[#735c00]/10 transition-colors">"</span>
-                      <p className="text-lg md:text-xl font-display text-gray-800 italic mb-6 leading-relaxed line-clamp-4 md:line-clamp-none">
+                      <p className="text-lg md:text-xl font-display text-gray-800 italic mb-6 leading-relaxed">
                         "{review.text}"
                       </p>
                       <span className="text-xs font-sans tracking-[0.2em] text-gray-400 uppercase font-medium">
