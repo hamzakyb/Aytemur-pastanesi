@@ -10,6 +10,8 @@
   },
   "hero": {
     "titleTop": "Desde 1978",
+    "titleTopLine1": "Desde",
+    "titleTopLine2": "1978.",
     "titleBottom": "Sabores Artesanais.",
     "desc": "No coração de Avanos, uma dedicação silenciosa que abrange quase meio século. Uma herança artesanal mesclada com a tradição mestre-aprendiz, carregando o espírito único da Capadócia. Cada uma das nossas receitas é um reflexo de receitas tradicionais transmitidas através de gerações e de uma abordagem de pastelaria boutique."
   },
@@ -61,6 +63,26 @@
       "desserts": "Sobremesas",
       "drinks": "Bebidas"
     }
+  },
+  "faq": {
+    "subtitle": "Perguntas frequentes",
+    "title": "Perguntas frequentes",
+    "q1": "Você faz bolos para ocasiões especiais e aniversários?",
+    "a1": "Sim, preparamos bolos personalizados inteiramente de acordo com os seus desejos e conceito. Solicitamos que você entre em contato conosco com pelo menos 3-4 dias de antecedência para planejamento detalhado e pedidos.",
+    "q2": "Você tem opções para pessoas com sensibilidade a alérgenos?",
+    "a2": "Nosso cardápio inclui alternativas preparadas com farinhas sem glúten e adoçantes naturais. No entanto, como os produtos que contêm glúten também são processados ​​na nossa área de produção, recomendamos considerar o risco de contaminação cruzada.",
+    "q3": "Você tem serviço de entrega fora de Avanos?",
+    "a3": "Temos serviço de entrega rápida para todas as regiões de Avanos. Você pode entrar em contato conosco por telefone para obter informações sobre valores mínimos de pedidos ou detalhes de entrega para distritos e regiões vizinhas.",
+    "q4": "Qual é o seu horário de funcionamento e você está aberto todos os dias da semana?",
+    "a4": "Temos o prazer de recebê-lo na nossa pastelaria em Avanos todos os dias da semana entre as 07h00 da manhã e as 23h00 da noite.",
+    "q5": "Seus produtos são preparados diariamente?",
+    "a5": "Sim, todos os nossos produtos de panificação e pastelaria expostos nas nossas prateleiras são preparados na hora pelos nossos chefs todas as manhãs na nossa própria oficina. Não vendemos produtos estragados ou congelados.",
+    "q6": "Vocês oferecem pedidos em grandes quantidades ou serviços de catering?",
+    "a6": "Preparamos bandejas de doces/salgados a granel e bolos especiais para seus noivados, noites de henna, reuniões ou comemorações especiais. Você pode entrar em contato conosco com pelo menos uma semana de antecedência para contar os convidados e planejar o menu.",
+    "q7": "Quais são os padrões de qualidade dos ingredientes que você utiliza?",
+    "a7": "Sempre preferimos ingredientes de primeira classe em nossos produtos. Produzimos com manteiga francesa 100% natural, chocolate belga genuíno e frutas frescas da estação obtidas de produtores locais de Avanos. Não utilizamos conservantes artificiais ou aditivos químicos.",
+    "q8": "Podemos fazer pedidos por telefone ou online?",
+    "a8": "Depois de revisar o cardápio digital em nosso site, você pode criar seu pedido rapidamente ligando para nossa linha de pedidos ou entrando em contato conosco através do nosso número de WhatsApp."
   },
   "aboutPage": {
     "subtitle": "Nossa herança",

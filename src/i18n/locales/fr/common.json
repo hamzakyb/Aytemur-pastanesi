@@ -10,6 +10,8 @@
   },
   "hero": {
     "titleTop": "Depuis 1978",
+    "titleTopLine1": "Depuis",
+    "titleTopLine2": "1978.",
     "titleBottom": "Saveurs artisanales.",
     "desc": "Au cœur d'Avanos, une dédicace silencieuse s'étalant sur près d'un demi-siècle. Un patrimoine artisanal pétri de la tradition maître-apprenti, porteur de l'esprit unique de la Cappadoce. Chacune de nos recettes est le reflet de recettes traditionnelles transmises de génération en génération et d'une approche pâtissière artisanale."
   },
@@ -61,6 +63,26 @@
       "desserts": "Desserts",
       "drinks": "Boissons"
     }
+  },
+  "faq": {
+    "subtitle": "Foire aux questions",
+    "title": "FAQ",
+    "q1": "Faites-vous des gâteaux pour des occasions spéciales et des anniversaires ?",
+    "a1": "Oui, nous préparons des gâteaux personnalisés entièrement selon vos souhaits et votre concept. Nous vous demandons de bien vouloir nous contacter au moins 3 à 4 jours à l'avance pour une planification et une commande détaillées.",
+    "q2": "Avez-vous des options pour les personnes sensibles aux allergènes ?",
+    "a2": "Notre menu comprend des alternatives préparées avec de la farine sans gluten et des édulcorants naturels. Cependant, comme les produits contenant du gluten sont également transformés dans notre zone de production, nous vous recommandons de considérer le risque de contamination croisée.",
+    "q3": "Avez-vous un service de livraison en dehors d'Avanos ?",
+    "a3": "Nous disposons d’un service de livraison rapide dans toutes les régions d’Avanos. Vous pouvez nous contacter par téléphone pour obtenir des informations sur les montants minimum de commande ou les détails de livraison pour les districts et régions environnants.",
+    "q4": "Quels sont vos horaires d'ouverture et êtes-vous ouvert tous les jours de la semaine ?",
+    "a4": "Nous sommes heureux de vous accueillir dans notre pâtisserie à Avanos tous les jours de la semaine entre 07h00 du matin et 23h00 du soir.",
+    "q5": "Vos produits sont-ils fraîchement préparés quotidiennement ?",
+    "a5": "Oui, tous nos produits de boulangerie et pâtisserie présentés dans nos rayons sont fraîchement préparés par nos chefs chaque matin dans notre propre atelier. Nous ne vendons pas de produits rassis ou surgelés.",
+    "q6": "Proposez-vous des commandes groupées ou des services de restauration ?",
+    "a6": "Nous préparons des plateaux de gourmandises sucrées/salées en vrac et des gâteaux spéciaux pour vos fiançailles, soirées henné, réunions ou célébrations particulières. Vous pouvez nous contacter au moins une semaine à l'avance pour le décompte des invités et la planification du menu.",
+    "q7": "Quelles sont les normes de qualité des ingrédients que vous utilisez ?",
+    "a7": "Nous préférons toujours des ingrédients de première qualité dans nos produits. Nous produisons à partir de beurre français 100% naturel, de véritable chocolat belge et de fruits frais de saison obtenus auprès des producteurs locaux d'Avanos. Nous n'utilisons pas de conservateurs artificiels ni d'additifs chimiques.",
+    "q8": "Pouvons-nous commander par téléphone ou en ligne ?",
+    "a8": "Après avoir consulté le menu numérique sur notre site Web, vous pouvez rapidement créer votre commande en appelant notre ligne de commande ou en nous contactant via notre numéro WhatsApp."
   },
   "aboutPage": {
     "subtitle": "Notre patrimoine",

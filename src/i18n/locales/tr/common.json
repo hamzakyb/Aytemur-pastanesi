@@ -10,8 +10,10 @@
   },
   "hero": {
     "titleTop": "1978'den Beri",
-    "titleBottom": "Tutkuyla Yoğrulan Tatlar.",
-    "desc": "Gerçek lezzetin sırrı, detaylara gösterilen özende gizlidir. Yarım asırdır Avanos'ta her güne aynı heyecanla başlıyor; ince bir işçilikle hazırladığımız ürünlerle size sadece bir tat değil, özel bir deneyim sunuyoruz."
+    "titleTopLine1": "1978'den",
+    "titleTopLine2": "Beri.",
+    "titleBottom": "Artizan Lezzetler.",
+    "desc": "Avanos'un kalbinde, yarım asra yaklaşan sessiz bir adanmışlık. Usta-çırak geleneğiyle yoğrulan, Kapadokya'nın eşsiz ruhunu taşıyan bir zanaat mirası. Her tarifimiz, nesiller boyu aktarılan geleneksel reçetelerin ve butik pastacılık anlayışının birer yansımasıdır."
   },
   "homeMenu": {
     "title": "Günlük Fırın Menümüz",
@@ -62,13 +64,33 @@
       "drinks": "İçecekler"
     }
   },
+  "faq": {
+    "subtitle": "Merak Edilenler",
+    "title": "Sıkça Sorulan Sorular",
+    "q1": "Özel gün ve doğum günü pastaları yapıyor musunuz?",
+    "a1": "Evet, tamamen sizin isteklerinize ve konseptinize özel tasarım pastalar hazırlıyoruz. Detaylı planlama ve sipariş için en az 3-4 gün önceden bizimle iletişime geçmenizi rica ederiz.",
+    "q2": "Alerjen hassasiyeti olanlar için seçenekleriniz var mı?",
+    "a2": "Menümüzde glutensiz un ve doğal tatlandırıcılarla hazırladığımız alternatifler bulunmaktadır. Ancak üretim alanımızda gluten içeren ürünler de işlendiği için çapraz bulaşma riskini göz önünde bulundurmanızı öneririz.",
+    "q3": "Avanos dışındaki bölgelere paket servisiniz bulunuyor mu?",
+    "a3": "Avanos içi tüm bölgelere hızlı paket servis hizmetimiz mevcuttur. Çevre ilçe ve bölgeler için minimum sipariş tutarı veya teslimat detayları hakkında bilgi almak için bizimle telefonla iletişime geçebilirsiniz.",
+    "q4": "Çalışma saatleriniz nedir ve haftanın her günü açık mısınız?",
+    "a4": "Haftanın her günü sabah 07:00 ile gece 23:00 saatleri arasında Avanos'taki pastanemizde sizleri ağırlamaktan mutluluk duyuyoruz.",
+    "q5": "Ürünleriniz günlük mü üretiliyor?",
+    "a5": "Evet, tezgahımızda yer alan tüm fırın ve pastacılık ürünlerimiz her sabah kendi imalathanemizde ustalarımız tarafından taze olarak hazırlanır. Bayat veya dondurulmuş ürün satışı yapmıyoruz.",
+    "q6": "Toplu organizasyonlar veya catering hizmeti sunuyor musunuz?",
+    "a6": "Nişan, kına, toplantı veya özel kutlamalarınız için toplu tatlı/tuzlu ikramlık tepsileri ve özel pastalar hazırlıyoruz. Kişi sayısı ve menü planlaması için bizimle en az bir hafta önceden görüşebilirsiniz.",
+    "q7": "Kullandığınız malzemelerin kalite standartları nelerdir?",
+    "a7": "Ürünlerimizde her zaman en üst sınıf malzemeleri tercih ediyoruz. Gerçek Fransız tereyağı, hakiki Belçika çikolatası ve Avanos'un yerel üreticilerinden temin ettiğimiz taze mevsim meyveleriyle üretim yapıyoruz. Yapay koruyucu veya kimyasal katkı maddesi kullanmıyoruz.",
+    "q8": "Telefon veya internet üzerinden sipariş verebiliyor muyuz?",
+    "a8": "Web sitemizdeki dijital menüyü inceledikten sonra, sipariş hattımızı arayarak veya WhatsApp numaramız üzerinden bizimle iletişime geçerek siparişinizi hızlıca oluşturabilirsiniz."
+  },
   "aboutPage": {
-    "subtitle": "Kurumsal Tarihçemiz",
-    "title": "Yarım Asırlık Lezzet Vizyonu",
-    "p1": "1978 yılında Avanos’ta temelleri atılan Aytemur Pastanesi olarak, köklü lezzet mirasımızı modern üretim standartlarıyla günümüze taşıyoruz.",
-    "p2": "Üretim süreçlerimizde geleneksel el işçiliğinin değerini merkeze alıyor; her bir ürünümüzü özenle seçilmiş, yüksek standartlı malzemelerle hazırlıyoruz. Yılların getirdiği tecrübeyi, yenilikçi bir vizyonla harmanlıyoruz.",
-    "p3": "Yöresel reçetelerimizi ve dünya pastacılığının seçkin örneklerini aynı çatı altında buluştururken; ürün kalitesinde sürekliliği sağlamak ve misafir memnuniyetini en üst düzeyde tutmak temel önceliğimizdir.",
-    "p4": "Yarım asra yaklaşan kurum kültürümüzün bir yansıması olan bu lezzet deneyimini sizlerle paylaşmaktan memnuniyet duyuyoruz."
+    "subtitle": "Mirasımız",
+    "title": "Yarım Asırlık Bir Lezzet Hikayesi",
+    "p1": "1978 yılında Kapadokya'nın kalbi Avanos'ta küçük bir fırın olarak yola çıktık. O günden bugüne değişmeyen tek şey, artizan fırıncılığa olan tutkumuz ve kaliteden asla ödün vermeyen duruşumuz oldu.",
+    "p2": "Bizim için pastacılık sadece bir meslek değil, nesilden nesile aktarılan bir zanaat. Her sabah gün ağarmadan yanan fırınlarımızda, ekşi mayalı ekmeklerimiz, çıtır kruvasanlarımız ve nostaljik mahlep kokulu çöreklerimiz hazırlanıyor.",
+    "p3": "En iyi malzemeleri bulmak, yerel üreticiyi desteklemek ve mevsiminde taze ürünler kullanmak bizim en büyük prensibimiz. Fransız tereyağı, Belçika çikolatası ve Avanos'un verimli topraklarından gelen meyveleri harmanlayarak, hem modern pastacılık tekniklerini hem de geleneksel lezzetleri bir araya getiriyoruz.",
+    "p4": "Sizleri bu sessiz adanmışlık ve lezzet yolculuğunun bir parçası olmaya davet ediyoruz."
   },
   "contactPage": {
     "subtitle": "İletişim",
@@ -130,7 +152,7 @@
   },
   "products": {
     "p1Title": "Tasarım Pastalar",
-    "p1Desc": "Tüm özel davetleriniz ve kutlamalarınız için, ustalarımız tarafından her detayı tek tek işlenerek hayata geçirilen özel tasarım pastalar.",
+    "p1Desc": "Zanaatın lüksle buluştuğu nokta. Özel günleriniz için tasarlanan butik pastalar.",
     "p2Title": "Geleneksel Hamur İşleri",
     "p2Desc": "Meşhur mahlep kokulu Paskalya çöreğimiz ve taş fırın geleneğiyle hazırlanan klasik reçetelerimiz.",
     "p3Title": "Sütlü Tatlılar",

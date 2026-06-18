@@ -10,6 +10,8 @@
   },
   "hero": {
     "titleTop": "Dal 1978",
+    "titleTopLine1": "Da allora",
+    "titleTopLine2": "1978.",
     "titleBottom": "Sapori Artigianali.",
     "desc": "Nel cuore di Avanos, una dedizione silenziosa lunga quasi mezzo secolo. Un patrimonio artigianale unito alla tradizione del maestro-apprendista, che porta con sé lo spirito unico della Cappadocia. Ognuna delle nostre ricette riflette le ricette tradizionali tramandate di generazione in generazione e un approccio di pasticceria artigianale."
   },
@@ -61,6 +63,26 @@
       "desserts": "Dessert",
       "drinks": "Bevande"
     }
+  },
+  "faq": {
+    "subtitle": "Domande frequenti",
+    "title": "Domande frequenti",
+    "q1": "Realizzi torte per occasioni speciali e compleanni?",
+    "a1": "Sì, prepariamo torte dal design personalizzato interamente secondo i vostri desideri e il vostro concetto. Vi chiediamo gentilmente di contattarci almeno 3-4 giorni prima per la pianificazione dettagliata e l'ordinazione.",
+    "q2": "Avete opzioni per chi ha sensibilità agli allergeni?",
+    "a2": "Il nostro menù prevede alternative preparate con farine senza glutine e dolcificanti naturali. Tuttavia, poiché nella nostra zona di produzione vengono lavorati anche prodotti contenenti glutine, consigliamo di considerare il rischio di contaminazione incrociata.",
+    "q3": "Avete un servizio di consegna fuori Avanos?",
+    "a3": "Abbiamo un servizio di consegna veloce in tutte le regioni di Avanos. Puoi contattarci telefonicamente per ottenere informazioni sugli importi minimi dell'ordine o sui dettagli di consegna per i distretti e le regioni circostanti.",
+    "q4": "Quali sono i vostri orari di apertura e siete aperti tutti i giorni della settimana?",
+    "a4": "Siamo lieti di accogliervi nella nostra pasticceria ad Avanos tutti i giorni della settimana dalle 07:00 al mattino alle 23:00 alla sera.",
+    "q5": "I vostri prodotti sono preparati freschi ogni giorno?",
+    "a5": "Sì, tutti i nostri prodotti da forno e pasticceria esposti sui nostri scaffali sono preparati ogni mattina dai nostri chef nel nostro laboratorio. Non vendiamo prodotti stantii o congelati.",
+    "q6": "Offrite ordini all'ingrosso o servizi di catering?",
+    "a6": "Prepariamo vassoi dolci/salati sfusi e torte speciali per i vostri fidanzamenti, serate di henné, riunioni o celebrazioni speciali. Potete contattarci almeno una settimana prima per il conteggio degli ospiti e la pianificazione del menù.",
+    "q7": "Quali sono gli standard di qualità degli ingredienti che utilizzate?",
+    "a7": "Preferiamo sempre ingredienti di prima qualità nei nostri prodotti. Produciamo utilizzando burro francese naturale al 100%, autentico cioccolato belga e frutta fresca di stagione ottenuta dai produttori locali di Avanos. Non utilizziamo conservanti artificiali o additivi chimici.",
+    "q8": "Possiamo ordinare per telefono o online?",
+    "a8": "Dopo aver esaminato il menu digitale sul nostro sito Web, puoi creare rapidamente il tuo ordine chiamando la nostra linea ordini o contattandoci tramite il nostro numero WhatsApp."
   },
   "aboutPage": {
     "subtitle": "Il nostro patrimonio",

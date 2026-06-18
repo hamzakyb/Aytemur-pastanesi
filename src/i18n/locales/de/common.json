@@ -10,6 +10,8 @@
   },
   "hero": {
     "titleTop": "Seit 1978",
+    "titleTopLine1": "Seitdem",
+    "titleTopLine2": "1978.",
     "titleBottom": "Handwerkliche Aromen.",
     "desc": "Im Herzen von Avanos, einer stillen Hingabe, die sich über fast ein halbes Jahrhundert erstreckt. Ein handwerkliches Erbe, geknüpft mit der Meister-Lehrlings-Tradition, das den einzigartigen Geist Kappadokiens in sich trägt. Jedes unserer Rezepte spiegelt traditionelle, über Generationen weitergegebene Rezepte und einen Boutique-Konditoransatz wider."
   },
@@ -61,6 +63,26 @@
       "desserts": "Desserts",
       "drinks": "Getränke"
     }
+  },
+  "faq": {
+    "subtitle": "Häufig gestellte Fragen",
+    "title": "FAQ",
+    "q1": "Backen Sie Kuchen für besondere Anlässe und Geburtstage?",
+    "a1": "Ja, wir bereiten individuelle Designtorten ganz nach Ihren Wünschen und Vorstellungen zu. Für eine detaillierte Planung und Bestellung bitten wir Sie, uns mindestens 3-4 Tage im Voraus zu kontaktieren.",
+    "q2": "Gibt es Optionen für Allergiker?",
+    "a2": "Auf unserer Speisekarte stehen Alternativen, die mit glutenfreiem Mehl und natürlichen Süßungsmitteln zubereitet werden. Da in unserem Produktionsbereich jedoch auch glutenhaltige Produkte verarbeitet werden, empfehlen wir, das Risiko einer Kreuzkontamination zu berücksichtigen.",
+    "q3": "Gibt es einen Lieferservice außerhalb von Avanos?",
+    "a3": "Wir bieten einen schnellen Lieferservice in alle Regionen innerhalb von Avanos. Für Informationen zu Mindestbestellmengen oder Lieferdetails für umliegende Kreise und Regionen können Sie uns telefonisch kontaktieren.",
+    "q4": "Wie sind Ihre Öffnungszeiten und haben Sie jeden Tag der Woche geöffnet?",
+    "a4": "Wir freuen uns, Sie an jedem Wochentag zwischen 07:00 Uhr morgens und 23:00 Uhr abends in unserer Patisserie in Avanos begrüßen zu dürfen.",
+    "q5": "Werden Ihre Produkte täglich frisch zubereitet?",
+    "a5": "Ja, alle unsere in unseren Regalen ausgestellten Back- und Konditorwaren werden jeden Morgen von unseren Köchen in unserer eigenen Werkstatt frisch zubereitet. Wir verkaufen keine abgestandenen oder gefrorenen Produkte.",
+    "q6": "Bieten Sie Großbestellungen oder Catering-Services an?",
+    "a6": "Wir bereiten große Tabletts mit süßen/herzhaften Leckereien und besonderen Kuchen für Ihre Verlobungen, Henna-Abende, Tagungen oder besondere Feiern vor. Für die Gästezählung und Menüplanung können Sie uns mindestens eine Woche im Voraus kontaktieren.",
+    "q7": "Welche Qualitätsstandards gelten für die von Ihnen verwendeten Zutaten?",
+    "a7": "Wir bevorzugen bei unseren Produkten stets erstklassige Zutaten. Wir produzieren aus 100 % natürlicher französischer Butter, echter belgischer Schokolade und frischen Früchten der Saison, die wir von lokalen Erzeugern von Avanos beziehen. Wir verzichten auf künstliche Konservierungsstoffe und chemische Zusätze.",
+    "q8": "Können wir telefonisch oder online bestellen?",
+    "a8": "Nachdem Sie sich die digitale Speisekarte auf unserer Website angesehen haben, können Sie schnell Ihre Bestellung aufgeben, indem Sie unsere Bestellhotline anrufen oder uns über unsere WhatsApp-Nummer kontaktieren."
   },
   "aboutPage": {
     "subtitle": "Unser Erbe",

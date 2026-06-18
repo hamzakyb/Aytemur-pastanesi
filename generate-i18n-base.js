@@ -13,6 +13,8 @@ const tr = {
   },
   hero: {
     titleTop: "1978'den Beri",
+    titleTopLine1: "1978'den",
+    titleTopLine2: "Beri.",
     titleBottom: "Artizan Lezzetler.",
     desc: "Avanos'un kalbinde, yarım asra yaklaşan sessiz bir adanmışlık. Usta-çırak geleneğiyle yoğrulan, Kapadokya'nın eşsiz ruhunu taşıyan bir zanaat mirası. Her tarifimiz, nesiller boyu aktarılan geleneksel reçetelerin ve butik pastacılık anlayışının birer yansımasıdır."
   },
@@ -64,6 +66,26 @@ const tr = {
       desserts: "Tatlılar",
       drinks: "İçecekler"
     }
+  },
+  faq: {
+    subtitle: "Merak Edilenler",
+    title: "Sıkça Sorulan Sorular",
+    q1: "Özel gün ve doğum günü pastaları yapıyor musunuz?",
+    a1: "Evet, tamamen sizin isteklerinize ve konseptinize özel tasarım pastalar hazırlıyoruz. Detaylı planlama ve sipariş için en az 3-4 gün önceden bizimle iletişime geçmenizi rica ederiz.",
+    q2: "Alerjen hassasiyeti olanlar için seçenekleriniz var mı?",
+    a2: "Menümüzde glutensiz un ve doğal tatlandırıcılarla hazırladığımız alternatifler bulunmaktadır. Ancak üretim alanımızda gluten içeren ürünler de işlendiği için çapraz bulaşma riskini göz önünde bulundurmanızı öneririz.",
+    q3: "Avanos dışındaki bölgelere paket servisiniz bulunuyor mu?",
+    a3: "Avanos içi tüm bölgelere hızlı paket servis hizmetimiz mevcuttur. Çevre ilçe ve bölgeler için minimum sipariş tutarı veya teslimat detayları hakkında bilgi almak için bizimle telefonla iletişime geçebilirsiniz.",
+    q4: "Çalışma saatleriniz nedir ve haftanın her günü açık mısınız?",
+    a4: "Haftanın her günü sabah 07:00 ile gece 23:00 saatleri arasında Avanos'taki pastanemizde sizleri ağırlamaktan mutluluk duyuyoruz.",
+    q5: "Ürünleriniz günlük mü üretiliyor?",
+    a5: "Evet, tezgahımızda yer alan tüm fırın ve pastacılık ürünlerimiz her sabah kendi imalathanemizde ustalarımız tarafından taze olarak hazırlanır. Bayat veya dondurulmuş ürün satışı yapmıyoruz.",
+    q6: "Toplu organizasyonlar veya catering hizmeti sunuyor musunuz?",
+    a6: "Nişan, kına, toplantı veya özel kutlamalarınız için toplu tatlı/tuzlu ikramlık tepsileri ve özel pastalar hazırlıyoruz. Kişi sayısı ve menü planlaması için bizimle en az bir hafta önceden görüşebilirsiniz.",
+    q7: "Kullandığınız malzemelerin kalite standartları nelerdir?",
+    a7: "Ürünlerimizde her zaman en üst sınıf malzemeleri tercih ediyoruz. Gerçek Fransız tereyağı, hakiki Belçika çikolatası ve Avanos'un yerel üreticilerinden temin ettiğimiz taze mevsim meyveleriyle üretim yapıyoruz. Yapay koruyucu veya kimyasal katkı maddesi kullanmıyoruz.",
+    q8: "Telefon veya internet üzerinden sipariş verebiliyor muyuz?",
+    a8: "Web sitemizdeki dijital menüyü inceledikten sonra, sipariş hattımızı arayarak veya WhatsApp numaramız üzerinden bizimle iletişime geçerek siparişinizi hızlıca oluşturabilirsiniz."
   },
   aboutPage: {
     subtitle: "Mirasımız",
@@ -155,6 +177,8 @@ const en = {
   },
   hero: {
     titleTop: "Since 1978",
+    titleTopLine1: "Since",
+    titleTopLine2: "1978.",
     titleBottom: "Artisan Flavors.",
     desc: "In the heart of Avanos, a silent dedication spanning nearly half a century. An artisanal heritage kneaded with the master-apprentice tradition, carrying the unique spirit of Cappadocia. Each of our recipes is a reflection of traditional recipes passed down through generations and a boutique pastry approach."
   },
@@ -206,6 +230,26 @@ const en = {
       desserts: "Desserts",
       drinks: "Drinks"
     }
+  },
+  faq: {
+    subtitle: "Frequently Asked Questions",
+    title: "FAQ",
+    q1: "Do you make special occasion and birthday cakes?",
+    a1: "Yes, we prepare custom design cakes entirely according to your wishes and concept. We kindly request you to contact us at least 3-4 days in advance for detailed planning and ordering.",
+    q2: "Do you have options for those with allergen sensitivity?",
+    a2: "Our menu includes alternatives prepared with gluten-free flour and natural sweeteners. However, since products containing gluten are also processed in our production area, we recommend considering the risk of cross-contamination.",
+    q3: "Do you have delivery service outside of Avanos?",
+    a3: "We have fast delivery service to all regions within Avanos. You can contact us by phone to get information about minimum order amounts or delivery details for surrounding districts and regions.",
+    q4: "What are your opening hours and are you open every day of the week?",
+    a4: "We are happy to welcome you at our patisserie in Avanos every day of the week between 07:00 in the morning and 23:00 at night.",
+    q5: "Are your products freshly prepared daily?",
+    a5: "Yes, all our bakery and pastry products displayed on our shelves are freshly prepared by our chefs every morning in our own workshop. We do not sell stale or frozen products.",
+    q6: "Do you offer bulk orders or catering services?",
+    a6: "We prepare bulk sweet/savory treat trays and special cakes for your engagements, henna nights, meetings or special celebrations. You can contact us at least one week in advance for guest count and menu planning.",
+    q7: "What are the quality standards of the ingredients you use?",
+    a7: "We always prefer top-class ingredients in our products. We produce using 100% natural French butter, genuine Belgian chocolate and fresh seasonal fruits obtained from local producers of Avanos. We do not use artificial preservatives or chemical additives.",
+    q8: "Can we order over the phone or online?",
+    a8: "After reviewing the digital menu on our website, you can quickly create your order by calling our order line or contacting us via our WhatsApp number."
   },
   aboutPage: {
     subtitle: "Our Heritage",

@@ -300,12 +300,12 @@ export default function Home() {
           <div className="relative z-20 px-6 md:px-24 w-full flex flex-col justify-center mt-20">
             <ScrollReveal yOffset={30}>
               <h1 className="font-display text-[#735c00] bleed-text italic mb-4 opacity-90 drop-shadow-sm">
-                1978'den
+                {t("hero.titleTopLine1", "1978'den")}
               </h1>
             </ScrollReveal>
             <ScrollReveal yOffset={30} delay={0.15}>
               <h1 className="font-display text-gray-900 bleed-text ml-12 md:ml-32 mb-12">
-                Beri.
+                {t("hero.titleTopLine2", "Beri.")}
               </h1>
             </ScrollReveal>
             <ScrollReveal yOffset={30} delay={0.3} className="max-w-xl md:ml-32 relative">

@@ -10,6 +10,8 @@
   },
   "hero": {
     "titleTop": "Sejak tahun 1978",
+    "titleTopLine1": "Sejak",
+    "titleTopLine2": "1978.",
     "titleBottom": "Rasa Pengrajin.",
     "desc": "Di jantung Avanos, sebuah dedikasi diam-diam yang berlangsung hampir setengah abad. Warisan seni yang dipadukan dengan tradisi master-magang, membawa semangat unik Cappadocia. Setiap resep kami merupakan cerminan resep tradisional yang diturunkan dari generasi ke generasi dan pendekatan pastry butik."
   },
@@ -61,6 +63,26 @@
       "desserts": "Makanan penutup",
       "drinks": "Minuman"
     }
+  },
+  "faq": {
+    "subtitle": "Pertanyaan yang Sering Diajukan",
+    "title": "Pertanyaan Umum",
+    "q1": "Apakah Anda membuat kue untuk acara khusus dan ulang tahun?",
+    "a1": "Ya, kami menyiapkan kue custom design sepenuhnya sesuai keinginan dan konsep Anda. Kami dengan hormat meminta Anda untuk menghubungi kami setidaknya 3-4 hari sebelumnya untuk perencanaan dan pemesanan terperinci.",
+    "q2": "Apakah Anda punya pilihan bagi mereka yang sensitif terhadap alergen?",
+    "a2": "Menu kami mencakup alternatif yang dibuat dengan tepung bebas gluten dan pemanis alami. Namun, karena produk yang mengandung gluten juga diproses di area produksi kami, kami menyarankan untuk mempertimbangkan risiko kontaminasi silang.",
+    "q3": "Apakah Anda memiliki layanan pengiriman di luar Avanos?",
+    "a3": "Kami memiliki layanan pengiriman cepat ke seluruh wilayah di Avanos. Anda dapat menghubungi kami melalui telepon untuk mendapatkan informasi tentang jumlah pesanan minimum atau rincian pengiriman untuk distrik dan wilayah sekitar.",
+    "q4": "Jam berapa Anda buka dan apakah Anda buka setiap hari dalam seminggu?",
+    "a4": "Kami dengan senang hati menyambut Anda di toko kue kami di Avanos setiap hari dalam seminggu antara pukul 07:00 pagi hingga 23:00 malam.",
+    "q5": "Apakah produk Anda baru disiapkan setiap hari?",
+    "a5": "Ya, semua produk roti dan kue kering yang dipajang di rak kami disiapkan secara segar oleh koki kami setiap pagi di bengkel kami sendiri. Kami tidak menjual produk basi atau beku.",
+    "q6": "Apakah Anda menawarkan pesanan massal atau layanan katering?",
+    "a6": "Kami menyiapkan nampan suguhan manis/gurih dalam jumlah besar dan kue spesial untuk pertunangan, malam henna, rapat, atau perayaan khusus Anda. Anda dapat menghubungi kami setidaknya satu minggu sebelumnya untuk menghitung jumlah tamu dan perencanaan menu.",
+    "q7": "Apa standar kualitas bahan yang Anda gunakan?",
+    "a7": "Kami selalu mengutamakan bahan-bahan kelas atas dalam produk kami. Kami memproduksi menggunakan 100% mentega Perancis alami, coklat asli Belgia, dan buah-buahan segar musiman yang diperoleh dari produsen lokal Avanos. Kami tidak menggunakan bahan pengawet buatan atau bahan tambahan kimia.",
+    "q8": "Bisakah kita memesan melalui telepon atau online?",
+    "a8": "Setelah meninjau menu digital di website kami, Anda dapat dengan cepat membuat pesanan dengan menghubungi saluran pemesanan kami atau menghubungi kami melalui nomor WhatsApp kami."
   },
   "aboutPage": {
     "subtitle": "Warisan Kita",

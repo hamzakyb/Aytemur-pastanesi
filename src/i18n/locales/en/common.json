@@ -10,8 +10,10 @@
   },
   "hero": {
     "titleTop": "Since 1978",
-    "titleBottom": "Flavors Kneaded with Passion.",
-    "desc": "The secret to true flavor lies in the attention to detail. We start every day with the same excitement in Avanos for half a century; with our finely crafted products, we offer you not just a taste, but a special experience."
+    "titleTopLine1": "Since",
+    "titleTopLine2": "1978.",
+    "titleBottom": "Artisan Flavors.",
+    "desc": "In the heart of Avanos, a silent dedication spanning nearly half a century. An artisanal heritage kneaded with the master-apprentice tradition, carrying the unique spirit of Cappadocia. Each of our recipes is a reflection of traditional recipes passed down through generations and a boutique pastry approach."
   },
   "homeMenu": {
     "title": "Daily Bakery Menu",
@@ -62,13 +64,33 @@
       "drinks": "Drinks"
     }
   },
+  "faq": {
+    "subtitle": "Frequently Asked Questions",
+    "title": "FAQ",
+    "q1": "Do you make special occasion and birthday cakes?",
+    "a1": "Yes, we prepare custom design cakes entirely according to your wishes and concept. We kindly request you to contact us at least 3-4 days in advance for detailed planning and ordering.",
+    "q2": "Do you have options for those with allergen sensitivity?",
+    "a2": "Our menu includes alternatives prepared with gluten-free flour and natural sweeteners. However, since products containing gluten are also processed in our production area, we recommend considering the risk of cross-contamination.",
+    "q3": "Do you have delivery service outside of Avanos?",
+    "a3": "We have fast delivery service to all regions within Avanos. You can contact us by phone to get information about minimum order amounts or delivery details for surrounding districts and regions.",
+    "q4": "What are your opening hours and are you open every day of the week?",
+    "a4": "We are happy to welcome you at our patisserie in Avanos every day of the week between 07:00 in the morning and 23:00 at night.",
+    "q5": "Are your products freshly prepared daily?",
+    "a5": "Yes, all our bakery and pastry products displayed on our shelves are freshly prepared by our chefs every morning in our own workshop. We do not sell stale or frozen products.",
+    "q6": "Do you offer bulk orders or catering services?",
+    "a6": "We prepare bulk sweet/savory treat trays and special cakes for your engagements, henna nights, meetings or special celebrations. You can contact us at least one week in advance for guest count and menu planning.",
+    "q7": "What are the quality standards of the ingredients you use?",
+    "a7": "We always prefer top-class ingredients in our products. We produce using 100% natural French butter, genuine Belgian chocolate and fresh seasonal fruits obtained from local producers of Avanos. We do not use artificial preservatives or chemical additives.",
+    "q8": "Can we order over the phone or online?",
+    "a8": "After reviewing the digital menu on our website, you can quickly create your order by calling our order line or contacting us via our WhatsApp number."
+  },
   "aboutPage": {
-    "subtitle": "Our Corporate History",
-    "title": "Half a Century of Flavor Vision",
-    "p1": "As Aytemur Patisserie, established in Avanos in 1978, we carry our deep-rooted flavor heritage to the present with modern production standards.",
-    "p2": "We center the value of traditional craftsmanship in our production processes; carefully preparing each of our products with selected, high-standard ingredients. We blend years of experience with an innovative vision.",
-    "p3": "While bringing together our local recipes and distinguished examples of world pastry under the same roof, ensuring continuity in product quality and keeping guest satisfaction at the highest level is our main priority.",
-    "p4": "We are pleased to share this flavor experience, which is a reflection of our corporate culture approaching half a century, with you."
+    "subtitle": "Our Heritage",
+    "title": "A Flavor Story of Half a Century",
+    "p1": "We started out as a small bakery in Avanos, the heart of Cappadocia, in 1978. The only thing that hasn't changed since then is our passion for artisan baking and our uncompromising stance on quality.",
+    "p2": "For us, pastry making is not just a profession, but a craft passed down from generation to generation. In our ovens that burn before dawn every morning, our sourdough breads, crispy croissants, and nostalgic mahaleb-scented buns are prepared.",
+    "p3": "Finding the best ingredients, supporting local producers, and using fresh seasonal products are our biggest principles. By blending French butter, Belgian chocolate, and fruits from the fertile soils of Avanos, we bring together modern pastry techniques and traditional flavors.",
+    "p4": "We invite you to be a part of this silent dedication and journey of flavor."
   },
   "contactPage": {
     "subtitle": "Contact",
@@ -130,7 +152,7 @@
   },
   "products": {
     "p1Title": "Custom Cakes",
-    "p1Desc": "For all your special events and celebrations, custom-designed cakes brought to life by our master chefs with every detail meticulously crafted.",
+    "p1Desc": "Where craftsmanship meets luxury. Boutique cakes designed for your special days.",
     "p2Title": "Traditional Pastries",
     "p2Desc": "Our famous mahaleb scented Easter bun and classic recipes prepared with stone oven tradition.",
     "p3Title": "Milk Desserts",
