@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
-import { Search, ChevronLeft, QrCode, Info, X, Heart, Leaf, Clock, Sparkles, AlertCircle, ChefHat } from "lucide-react";
+import { Search, ChevronLeft, QrCode, Info, X, Heart, Leaf, Clock, Sparkles, AlertCircle, ChefHat, Flame } from "lucide-react";
 import { QRCodeSVG } from "qrcode.react";
 import { useTranslation } from "react-i18next";
 import LanguageSwitcher from "@/components/LanguageSwitcher";
@@ -281,7 +281,7 @@ export default function Menu() {
                     <span className="font-sans text-lg font-bold text-black">{item.price} ₺</span>
                     {item.isPopular && (
                       <span className="flex items-center gap-1 text-[10px] uppercase tracking-widest font-semibold text-[#735c00] bg-amber-50 px-2 py-1">
-                        <Sparkles className="w-3 h-3" />
+                        <Flame className="w-3 h-3 text-orange-500 fill-orange-500" />
                         {t("menuPage.popular", "Popüler")}
                       </span>
                     )}
