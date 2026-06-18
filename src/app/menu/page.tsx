@@ -158,6 +158,17 @@ export default function Menu() {
     return matchesSearch && matchesCategory;
   });
 
+  const getCategoryLabel = (categoryName: string) => {
+    const categoryKeyMap: Record<string, string> = {
+      "Fırın": "bakery",
+      "Pastacılık": "pastry",
+      "Tatlılar": "desserts",
+      "İçecekler": "drinks"
+    };
+    const key = categoryKeyMap[categoryName];
+    return key ? t(`menuPage.categories.${key}`, categoryName) : categoryName;
+  };
+
   return (
     <div className="min-h-screen bg-white text-black flex flex-col font-sans">
       {/* Top Navigation */}
@@ -290,7 +301,7 @@ export default function Menu() {
                       </span>
                     )}
                     <span className="font-sans text-[10px] uppercase tracking-wider text-gray-400">
-                      {item.category}
+                      {getCategoryLabel(item.category)}
                     </span>
                   </div>
                 </div>
@@ -372,17 +383,17 @@ export default function Menu() {
             <div className="p-5 md:p-8 flex-1 flex flex-col justify-between bg-white">
               <div>
                 <span className="font-sans text-[10px] uppercase tracking-widest text-[#735c00] font-semibold">
-                  {selectedItem.category}
+                  {getCategoryLabel(selectedItem.category)}
                 </span>
                 <h3 className="font-display text-3xl italic text-black mt-2 mb-4 leading-tight">
-                  {selectedItem.name}
+                  {t(`menuItems.${selectedItem.id}.name`, selectedItem.name)}
                 </h3>
                 <div className="font-sans font-bold text-2xl text-black mb-6">
                   {selectedItem.price} ₺
                 </div>
                 <div className="w-8 h-[1px] bg-black mb-6"></div>
                 <p className="font-sans text-[14px] font-light text-gray-600 leading-relaxed mb-6">
-                  {selectedItem.description}
+                  {t(`menuItems.${selectedItem.id}.desc`, selectedItem.description)}
                 </p>
               </div>
 
