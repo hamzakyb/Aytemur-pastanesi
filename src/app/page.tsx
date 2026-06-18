@@ -2,7 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
-import { MoveLeft, MoveRight, MoveHorizontal, Heart, Menu as MenuIcon, X, Star } from "lucide-react";
+import { MoveLeft, MoveRight, MoveHorizontal, Heart, Menu as MenuIcon, X, Star, ChevronDown } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import LanguageSwitcher from "@/components/LanguageSwitcher";
 import Footer from "@/components/Footer";
@@ -17,6 +17,26 @@ export default function Home() {
   const [scrollLeftState, setScrollLeftState] = useState(0);
 
   const [isScrolled, setIsScrolled] = useState(false);
+  const [openFaq, setOpenFaq] = useState<number | null>(null);
+
+  const faqs = [
+    {
+      q: t("faq.q1", "Özel gün ve doğum günü pastaları yapıyor musunuz?"),
+      a: t("faq.a1", "Evet, tamamen sizin isteklerinize ve konseptinize özel tasarım pastalar hazırlıyoruz. Detaylı planlama ve sipariş için en az 3-4 gün önceden bizimle iletişime geçmenizi rica ederiz.")
+    },
+    {
+      q: t("faq.q2", "Alerjen hassasiyeti olanlar için seçenekleriniz var mı?"),
+      a: t("faq.a2", "Menümüzde glutensiz un ve doğal tatlandırıcılarla hazırladığımız alternatifler bulunmaktadır. Ancak üretim alanımızda gluten içeren ürünler de işlendiği için çapraz bulaşma riskini göz önünde bulundurmanızı öneririz.")
+    },
+    {
+      q: t("faq.q3", "Avanos dışındaki bölgelere paket servisiniz bulunuyor mu?"),
+      a: t("faq.a3", "Avanos içi tüm bölgelere hızlı paket servis hizmetimiz mevcuttur. Çevre ilçe ve bölgeler için minimum sipariş tutarı veya teslimat detayları hakkında bilgi almak için bizimle telefonla iletişime geçebilirsiniz.")
+    },
+    {
+      q: t("faq.q4", "Çalışma saatleriniz nedir ve haftanın her günü açık mısınız?"),
+      a: t("faq.a4", "Haftanın her günü sabah 07:00 ile gece 23:00 saatleri arasında Avanos'taki pastanemizde sizleri ağırlamaktan mutluluk duyuyoruz.")
+    }
+  ];
 
   // Scroll Listener for header
   useEffect(() => {
@@ -430,6 +450,47 @@ export default function Home() {
                 <MoveRight className="w-4 h-4" />
               </a>
             </ScrollReveal>
+          </div>
+        </section>
+
+        {/* Sıkça Sorulan Sorular (FAQ) */}
+        <section className="py-32 w-full bg-white border-t border-gray-100" id="faq">
+          <div className="max-w-4xl mx-auto px-6">
+            <ScrollReveal className="text-center mb-16">
+              <span className="font-sans text-[10px] tracking-[0.2em] text-[#735c00] font-semibold uppercase">
+                {t("faq.subtitle", "Merak Edilenler")}
+              </span>
+              <h2 className="font-display text-3xl md:text-5xl text-black italic mt-2 mb-4">
+                {t("faq.title", "Sıkça Sorulan Sorular")}
+              </h2>
+              <div className="w-12 h-px bg-black mx-auto mt-6"></div>
+            </ScrollReveal>
+
+            <div className="space-y-4">
+              {faqs.map((faq, idx) => {
+                const isOpen = openFaq === idx;
+                return (
+                  <ScrollReveal key={idx} delay={idx * 0.05} className="border-b border-gray-100 pb-4">
+                    <button
+                      onClick={() => setOpenFaq(isOpen ? null : idx)}
+                      className="w-full flex items-center justify-between py-4 text-left font-display text-lg md:text-xl text-black hover:text-[#735c00] transition-colors duration-300"
+                    >
+                      <span>{faq.q}</span>
+                      <ChevronDown className={`w-5 h-5 text-gray-400 transition-transform duration-300 ${isOpen ? "rotate-180 text-[#735c00]" : ""}`} />
+                    </button>
+                    <div 
+                      className={`overflow-hidden transition-all duration-300 ease-in-out ${
+                        isOpen ? "max-h-40 opacity-100 mt-2" : "max-h-0 opacity-0"
+                      }`}
+                    >
+                      <p className="font-sans text-[14px] font-light text-gray-500 leading-relaxed pb-4">
+                        {faq.a}
+                      </p>
+                    </div>
+                  </ScrollReveal>
+                );
+              })}
+            </div>
           </div>
         </section>
 
