@@ -288,14 +288,6 @@ export default function Menu() {
                     <span className="font-sans text-[10px] uppercase tracking-wider text-gray-400">
                       {item.category}
                     </span>
-                    {item.allergens.length > 0 && (
-                      <div className="flex items-center gap-1">
-                        <Info className="w-3.5 h-3.5 text-gray-300" />
-                        <span className="font-sans text-[10px] text-gray-400">
-                          Alerjen: {item.allergens.join(", ")}
-                        </span>
-                      </div>
-                    )}
                   </div>
                 </div>
                 </div>
@@ -392,35 +384,10 @@ export default function Menu() {
 
               {/* Extra Badges & Allergens */}
               <div className="border-t border-black/5 pt-6 mt-auto">
-                <div className="flex items-center gap-2 mb-4 text-[#735c00]">
+                <div className="flex items-center gap-2 text-[#735c00]">
                   <ChefHat className="w-4 h-4" />
                   <span className="font-sans text-xs font-medium">Her sabah Avanos fırınımızda taze hazırlanır.</span>
                 </div>
-                {selectedItem.allergens.length > 0 ? (
-                  <div className="bg-orange-50/50 border border-orange-100 p-3 flex items-start gap-2.5">
-                    <AlertCircle className="w-4 h-4 text-orange-500 mt-0.5 flex-shrink-0" />
-                    <div>
-                      <h4 className="font-sans text-[11px] font-semibold text-orange-800 uppercase tracking-wider mb-1">
-                        Alerjen Uyarısı
-                      </h4>
-                      <p className="font-sans text-xs text-orange-700 font-light">
-                        Bu ürün şunları içermektedir: {selectedItem.allergens.join(", ")}.
-                      </p>
-                    </div>
-                  </div>
-                ) : (
-                  <div className="bg-emerald-50/50 border border-emerald-100 p-3 flex items-start gap-2.5">
-                    <Leaf className="w-4 h-4 text-emerald-600 mt-0.5 flex-shrink-0" />
-                    <div>
-                      <h4 className="font-sans text-[11px] font-semibold text-emerald-800 uppercase tracking-wider mb-1">
-                        Doğal ve Katkısız
-                      </h4>
-                      <p className="font-sans text-xs text-emerald-700 font-light">
-                        Bu ürün herhangi bir yapay koruyucu veya kimyasal katkı maddesi içermez.
-                      </p>
-                    </div>
-                  </div>
-                )}
               </div>
             </div>
           </div>
