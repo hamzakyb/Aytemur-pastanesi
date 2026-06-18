@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
-import { Search, ChevronLeft, QrCode, Info, X, Heart, Leaf, Clock, Sparkles, AlertCircle } from "lucide-react";
+import { Search, ChevronLeft, QrCode, Info, X, Heart, Leaf, Clock, Sparkles, AlertCircle, ChefHat } from "lucide-react";
 import { QRCodeSVG } from "qrcode.react";
 import { useTranslation } from "react-i18next";
 import LanguageSwitcher from "@/components/LanguageSwitcher";
@@ -393,7 +393,7 @@ export default function Menu() {
               {/* Extra Badges & Allergens */}
               <div className="border-t border-black/5 pt-6 mt-auto">
                 <div className="flex items-center gap-2 mb-4 text-[#735c00]">
-                  <Sparkles className="w-4 h-4" />
+                  <ChefHat className="w-4 h-4" />
                   <span className="font-sans text-xs font-medium">Her sabah Avanos fırınımızda taze hazırlanır.</span>
                 </div>
                 {selectedItem.allergens.length > 0 ? (
